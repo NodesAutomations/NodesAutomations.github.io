@@ -16,7 +16,7 @@ timezone: Asia/Calcutta
 
 title: Nodes Automations # the main title
 
-tagline: Software Automation for Civil Engineers # it will display as the subtitle
+tagline: Software Automation for <br> Civil Engineers # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Software Automation for Civil Engineers, AutoCAD, STAAD, MIDAS,Excel, Word, Powerpoint, .NET, VBA, python
