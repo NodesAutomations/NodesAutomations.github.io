@@ -1,5 +1,5 @@
 ---
 layout: services
-icon: fas fa-book
+icon: fas fa-toolbox
 order: 1
 ---
