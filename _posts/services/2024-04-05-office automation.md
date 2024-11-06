@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Office Automation
-description : Automate Excel, Word, Powerpoint using VBA or python
-date: 2024-04-03 00:00 +13
+description : Automate Excel, Word, Powerpoint
+date: 2024-04-05 00:00 +13
 categories: [services]
 tags: [services]
 service: true
