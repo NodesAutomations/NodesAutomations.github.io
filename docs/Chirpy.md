@@ -14,3 +14,4 @@
 - [chirpy](https://chirpy.cotes.page/posts/getting-started/)
 - [How to build your Blog for free on GitHub Pages using Jekyll](https://www.youtube.com/watch?v=m1RYsmOMPLs)
 - [Create a Digital Garden using Jekyll and GitHub Pages](https://www.youtube.com/watch?v=fX8d3SgdTbo)
+- [Sample Repo](https://github.com/geraldtui/geraldtui.github.io)
