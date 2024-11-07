@@ -1,10 +1,12 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 5
+order: 6
 ---
 ![Test](/assets//images/ProfilePic.png){: width="300" height="300" .w-50 .left}
-Hi, My name is Vivek.
+
+# 👋🏽 Hi! 
+My name is Vivek.
 
 I am Structural Engineer with Passion for Automation and Programming. 
 
