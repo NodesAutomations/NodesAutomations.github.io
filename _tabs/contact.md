@@ -10,7 +10,7 @@ order: 5
 - [Upwork](https://www.upwork.com/freelancers/~01f66199f6f1c07836)
 - [Fiverr](https://www.fiverr.com/vivek_nodes)
 
-```
+```text
 vivek@nodesautomations.com
 ```
 ### Office Address, If you want to meet in person
