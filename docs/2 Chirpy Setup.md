@@ -20,6 +20,7 @@
   - Support Multiple Language
 - [osotechie](https://github.com/osotechie/osotechie.github.io)
   - Welcome Post on Home for first time visitors
+- [Chirpy with Multi Language](https://aturret.space/posts/Customize-Bilingual-Blog-with-Chirpy-Theme/)
 
 ### Resources
 - [chirpy](https://chirpy.cotes.page/posts/getting-started/)
