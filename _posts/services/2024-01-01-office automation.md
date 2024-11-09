@@ -2,7 +2,7 @@
 layout: post
 title: Office Automation
 description : Automate Excel, Word, Powerpoint
-date: 2024-04-05 00:00 +13
+date: 2024-01-01
 categories: [Services,Office Automation]
 tags: [vba,csharp,python]
 service: true
