@@ -21,5 +21,6 @@ image: /assets/images/services/cad_automation.png
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 > CAD automation is done using  `C#`,`VBA` or `python`.
+> `Autolisp` is not prefered due to lack of features.
 {: .prompt-info }
 <!-- markdownlint-restore -->
