@@ -8,7 +8,7 @@ order: 6
 # 👋🏽 Hi! 
 My name is Vivek Patel.
 
-I am Structural Engineer with Passion for Automation and Programming. I use programming languages like `VBA`, `C#` or `python` to build custom software tools for my clients. If you're still confused about what i really do then feel free to visit my [youtubu channel](https://www.youtube.com/NodesAutomations) to watch few project demos.
+I am Structural Engineer with Passion for Automation and Programming. I use programming languages like `VBA`, `C#` or `python` to build custom software tools for my clients. If you're still confused about what i really do then feel free to visit my [youtube channel](https://www.youtube.com/NodesAutomations) to watch few project demos.
 
 
 I did my B.Tech (Civil Engineering) and M.Tech (Structural Engineering) from [Nirma University](https://nirmauni.ac.in/).
