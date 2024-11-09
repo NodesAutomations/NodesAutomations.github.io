@@ -7,7 +7,7 @@ categories: [Services,FEM Automation]
 tags: [vba,csharp,python]
 service: true
 hidden: true
-image: /assets/images/services/fem_automation.png
+image: /assets/images/services/fem_automation.webp
 ---
 
 ### STAAD Automation

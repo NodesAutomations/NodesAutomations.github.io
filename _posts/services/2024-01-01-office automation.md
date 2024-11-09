@@ -7,7 +7,7 @@ categories: [Services,Office Automation]
 tags: [vba,csharp,python]
 service: true
 hidden: true
-image: /assets/images/services/office_automation.png
+image: /assets/images/services/office_automation.webp
 ---
 
 ### Excel Automation

@@ -8,7 +8,7 @@ tags: [vba,csharp,python]
 tags: [services]
 service: true
 hidden: true
-image: /assets/images/services/cad_automation.png
+image: /assets/images/services/cad_automation.webp
 ---
 
 ### CAD Automation
