@@ -6,10 +6,12 @@ order: 6
 ![Test](/assets//images/ProfilePic.png){: width="300" height="300" .w-50 .left}
 
 # 👋🏽 Hi! 
-My name is Vivek.
+My name is Vivek Patel.
 
 I am Structural Engineer with Passion for Automation and Programming. 
 
-If you’re from civil engineering field, then I can help you with solving business problems if it involves repetitive or labour-intensive tasks. 
+I did my B.Tech (Civil Engineering) and M.Tech (Structural Engineering) from [Nirma University](https://nirmauni.ac.in/).
+After completing my engineering, i did work at [Infinite Civil Solutions](https://inficivil.com/) as Junior Engineer for 2.5 years.
 
-I use programming languages like `VBA`, `C#` or `python` to build custom software tools for my clients.
+
+I am an avid reader, specially fantasy or sci-fi books. In my free time, i prefer to go out with my friends or family specially to eat 😋.
