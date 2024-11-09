@@ -11,10 +11,15 @@ hidden: true
 image: /assets/images/services/cad_automation.png
 ---
 
-### Excel Automation
+### CAD Automation
+- Drawing generation from user form or excel data 
+- Extract data from existing drawing for estimation and costing
+- BBS calculation automation from existing drawing
+- Update blocks/block_attributes from excel data
+- Dxf File generation for other softwares
 
-### Word Automation
-
-### Powerpoint Automation
-
-
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+> CAD automation is done using  `C#`,`VBA` or `python`.
+{: .prompt-info }
+<!-- markdownlint-restore -->
