@@ -16,7 +16,7 @@ After completing my engineering, i did work at [Infinite Civil Solutions](https:
 
 At end of 2018, i have decided to start [Nodes Automations](https://nodesautomations.com/) to help other companies working in civil engineering to automate their repetative tasks.
 
-I am an avid reader, specially fantasy or sci-fi books. In my free time, i prefer to go out with my friends or family specially to eat 😋.
+In my free time, i prefer to go out with my friends or family specially to eat 😋. I am an avid reader, specially fantasy or sci-fi books. 
 
 I'm always excited to connect with fellow professionals, tech enthusiasts, or anyone interested in structural engineering and automation. Feel free to reach out to me via mail or linkedin. Here is my  [contact Details](https://nodesautomations.com/contact/).
 
