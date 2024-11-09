@@ -15,7 +15,7 @@ image: /assets/images/services/fem_automation.png
 - `*.std` file generation from excel data
 - Loads or Load Combination Generation
 - Geometry or section data extraction
-- Results extraction for design
+- Results extraction
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
@@ -39,7 +39,7 @@ image: /assets/images/services/fem_automation.png
 - Model Generation using excel data
 - Loads or Load Combination Generation
 - Geometry or section data extraction
-- Results extraction for design
+- Results extraction
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
