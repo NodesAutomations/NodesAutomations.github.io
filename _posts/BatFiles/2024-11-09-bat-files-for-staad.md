@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bat files for STAAD PRO
+description : Bat files for STAAD
 date: 09-11-2024
 categories: [Software Tools, Bat Files]
 tag: [bat, programming, automation, script, STAAD]
