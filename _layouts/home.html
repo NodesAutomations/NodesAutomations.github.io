@@ -23,6 +23,8 @@ refactor: true
 </div>
 {% endif %}
 
+{{ content | markdownify }}
+
 {% assign all_pinned = site.posts | where: 'pin', 'true' %}
 {% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 
@@ -47,6 +49,7 @@ refactor: true
 {% assign pinned_size = 0 %}
 {% endif %}
 
+
 <!-- Get normal posts on current page -->
 
 {% assign normal_size = paginator.posts | size | minus: pinned_size %}
@@ -62,12 +65,12 @@ refactor: true
 
 {% for i in (normal_start..normal_end) %}
 {% assign posts = posts | push: all_normal[i] %}
-{{ content | markdownify }}
 {% endfor %}
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
     {% for post in posts %}
+
     <article class="card-wrapper card">
         <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
             {% assign card_body_col = '12' %}
