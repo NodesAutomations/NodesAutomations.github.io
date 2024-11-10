@@ -17,7 +17,7 @@
 - [NichtsHsu](https://github.com/NichtsHsu/nichtshsu.github.io)
   - Custom 404 Page
   - Custom home
-  - Custom Backgroud for entire site
+  - Added animated background effects and mouse click effects
 - [ZhengYuan-Public](https://github.com/ZhengYuan-Public/zhengyuan-public.github.io)
   - PDF insert
 - [hionpu](https://github.com/hionpu/hionpu.github.io)
