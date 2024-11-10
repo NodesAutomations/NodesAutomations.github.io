@@ -14,6 +14,10 @@
 ### Sample Repo
 - [geraldtui](https://github.com/geraldtui/geraldtui.github.io)
   - Custom Tabs
+- [NichtsHsu](https://github.com/NichtsHsu/nichtshsu.github.io)
+  - Custom 404 Page
+  - Custom home
+  - Custom Backgroud for entire site
 - [ZhengYuan-Public](https://github.com/ZhengYuan-Public/zhengyuan-public.github.io)
   - PDF insert
 - [hionpu](https://github.com/hionpu/hionpu.github.io)
