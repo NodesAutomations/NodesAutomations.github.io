@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Bat files for STAAD PRO
-date: 10-11-2024
+date: 09-11-2024
 categories: [Software Tools, Bat Files]
 tag: [bat, programming, automation, script, STAAD]
+image: /assets/images/batfiles/bat_staad.webp
 ---
 
 ### STAAD Pro File Cleaner
