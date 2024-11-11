@@ -19,7 +19,7 @@ image: /assets/images/services/fem_automation.webp
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> STAAD automation is done using `VBA`, `C#` or `python`.
+> STAAD automation is done using `VBA`, `C#`, or `python`.
 {: .prompt-info }
 <!-- markdownlint-restore -->
 
@@ -31,7 +31,7 @@ image: /assets/images/services/fem_automation.webp
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> Midas Civil automation is done using `VBA`, `C#` or `python`.
+> Midas Civil automation is done using `VBA`, `C#`, or `python`.
 {: .prompt-info }
 <!-- markdownlint-restore -->
 

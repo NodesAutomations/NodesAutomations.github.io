@@ -20,7 +20,7 @@ image: /assets/images/services/office_automation.webp
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> Excel automation is done using `VBA`, `C#` or `python`.
+> Excel automation is done using `VBA`, `C#`, or `python`.
 {: .prompt-info }
 <!-- markdownlint-restore -->
 
@@ -35,12 +35,12 @@ image: /assets/images/services/office_automation.webp
 {: .prompt-info }
 <!-- markdownlint-restore -->
 
-### Powerpoint Automation
-- Report Generation using excel data
-- Extract Data from PowerPoint Text/Slide Images to Excel using VBA Macros
+### PowerPoint Automation
+- Report Generation using excel data.
+- Extract Data from PowerPoint Text/Slide Images to Excel using VBA Macros.
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> Powerpoint automation is done using `VBA` or `python`.
+> PowerPoint automation is done using `VBA` or `python`.
 {: .prompt-info }
 <!-- markdownlint-restore -->

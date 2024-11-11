@@ -15,12 +15,12 @@ image: /assets/images/services/cad_automation.webp
 - Drawing generation from user form or excel data 
 - Extract data from existing drawing for estimation and costing
 - BBS calculation automation from existing drawing
-- Update blocks/block_attributes from excel data
-- Dxf File generation for other softwares
+- Update blocks/block-attributes from excel data
+- `*.dxf` File generation for other software
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 > CAD automation is done using  `C#`,`VBA` or `python`.
-> `Autolisp` is not prefered due to lack of features.
+> `Auto lisp` is not preferred due to lack of features.
 {: .prompt-info }
 <!-- markdownlint-restore -->
