@@ -44,3 +44,8 @@ image: /assets/images/services/office_automation.webp
 > PowerPoint automation is done using `VBA` or `python`.
 {: .prompt-info }
 <!-- markdownlint-restore -->
+
+> I only do office automation for windows version of office. I don't provide any automation service for Mac version.
+> If you're planning to use my automation on windows and mac both it might not work due to difference in functionality.
+> Additinally windows and mac both have different file system so if your project code depend on that you'll need separate code for that.
+{: .prompt-danger }
