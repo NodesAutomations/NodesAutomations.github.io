@@ -1,0 +1,1 @@
+code "" "C:\Users\Ryzen2600x\source\repos\2_NodesAutomations" | exit
