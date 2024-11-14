@@ -1,1 +1,1 @@
-code "" "C:\Users\Ryzen2600x\source\repos\2_NodesAutomations" | exit
+start "" "C:\Users\Ryzen2600x\AppData\Local\Programs\Microsoft VS Code\Code.exe" .
