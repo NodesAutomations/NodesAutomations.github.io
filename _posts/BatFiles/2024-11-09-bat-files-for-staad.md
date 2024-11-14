@@ -18,7 +18,7 @@ image: /assets/images/batfiles/bat_staad.webp
 - so `del *.fileExtension` will delete all files with specified file extension
 - additionally, we are adding `/s` option to repeat this same action in all sub folders and `/q` option to do this quietly without any windows popup to confirm the delete action
 - our final command `del /s /q "*.ANL"` will delete all files with `*.ANL` extension in active folder as well as in sub folder
-- now we can all file extensions which want to remove after STAAD files. You can build your own version, but I've already done this for you
+- now we can add all file extensions which want to remove after STAAD files. You can build your own version, but I've already done this for you
 ```bat
 del /s /q "*.ANL"
 del /s /q "*.log"
