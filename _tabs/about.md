@@ -3,7 +3,7 @@
 icon: fas fa-info-circle
 order: 6
 ---
-![Test](/assets//images/profilePic.webp.webp){: width="300" height="300" .w-50 .left}
+![Test](/assets//images/profilePic.webp){: width="300" height="300" .w-50 .left}
 
 # 👋🏽 Hi! 
 My name is Vivek Patel.
