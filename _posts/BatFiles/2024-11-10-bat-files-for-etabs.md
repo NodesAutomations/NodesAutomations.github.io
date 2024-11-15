@@ -4,7 +4,7 @@ title: Bat files for ETABS
 description : Bat files for ETABS
 date: 10-11-2024
 categories: [Software Tools, Bat Files]
-tag: [bat, programming, automation, script, ETABS]
+tag: [bat file, automation, script, ETABS, how to]
 image: /assets/images/batfiles/bat_etabs.webp
 ---
 

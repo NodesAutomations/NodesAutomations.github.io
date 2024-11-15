@@ -4,8 +4,7 @@ title: CAD Automation
 description : Automate AutoCAD, ZWCAD, BricsCAD, GStarCAD
 date: 2024-01-03
 categories: [Services,CAD Automation]
-tags: [vba,csharp,python]
-tags: [services]
+tags: [services, vba,csharp,python]
 service: true
 hidden: true
 image: /assets/images/services/cad_automation.webp

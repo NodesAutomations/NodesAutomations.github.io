@@ -4,7 +4,7 @@ title: Bat files for STAAD PRO
 description : Bat files for STAAD
 date: 09-11-2024
 categories: [Software Tools, Bat Files]
-tag: [bat, programming, automation, script, STAAD]
+tag: [bat file, automation, script, STAAD, how to]
 image: /assets/images/batfiles/bat_staad.webp
 ---
 ### Overview

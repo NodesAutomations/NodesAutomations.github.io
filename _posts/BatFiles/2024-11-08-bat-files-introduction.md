@@ -4,7 +4,7 @@ title: Bat File Introduction
 description : Intro to Bat files for automation
 date: 08-11-2024
 categories: [Software Tools, Bat Files]
-tag: [bat, programming, automation, script, STAAD]
+tag: [bat file, automation, script, how to]
 image: /assets/images/batfiles/bat_intro.webp
 ---
 
