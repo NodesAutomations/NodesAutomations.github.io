@@ -1,6 +1,12 @@
 ### Overview
 - Website for Nodes Automations
 - Website is generated using Jekyll with chirpy theme and hosted using gitpages
+- I also need some place to put my content, idea, news 
+
+### Which kind of content i want from this website
+- I am building this website for my personal use
+- I am going to put stuff which i want to read from other automation website
+- I want to know about all latest tools, tech, software tips 
 
 ### Features
 - Home Page
