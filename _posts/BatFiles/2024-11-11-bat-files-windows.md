@@ -4,7 +4,7 @@ description : Hide Folders, Open Current folder in VS Code
 date: 11-11-2024
 categories: [Software Tools, Bat Files]
 tag: [bat file, automation, script, how to]
-image: /assets/images/batfiles/bat_intro.webp
+image: /assets/images/batfiles/bat_windows.webp
 ---
 
 ### Overview
