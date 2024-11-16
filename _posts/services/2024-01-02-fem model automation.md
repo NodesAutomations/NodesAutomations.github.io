@@ -3,7 +3,7 @@ layout: post
 title: FEM Model Automation
 description : Automate STAAD PRO, MIDAS Civil, ETABS
 date: 2024-01-02
-categories: [Services,FEM Automation]
+categories: [Website,Services]
 tags: [services, vba,csharp,python]
 service: true
 hidden: true
