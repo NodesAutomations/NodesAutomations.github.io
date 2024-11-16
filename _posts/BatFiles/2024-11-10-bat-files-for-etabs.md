@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bat files for ETABS
-description : Bat files for ETABS
+description : Clean up ETABS analysis files
 date: 10-11-2024
 categories: [Software Tools, Bat Files]
 tag: [bat file, automation, script, etabs, how to]

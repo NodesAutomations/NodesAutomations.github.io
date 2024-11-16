@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bat files for STAAD PRO
-description : Bat files for STAAD
+description : Clean up STAAD analysis files, run multiple staad models
 date: 09-11-2024
 categories: [Software Tools, Bat Files]
 tag: [bat file, automation, script, staad, how to]
