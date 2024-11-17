@@ -33,8 +33,8 @@ copyright:
   # Shown at the bottom of the post
   license:
     template: This post is licensed under :LICENSE_NAME by the author.
-    name: CC BY 4.0
-    link: https://creativecommons.org/licenses/by/4.0/
+    name: CC BY-NC-ND 4.0 
+    link: https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1
 
   # Displayed in the footer
   brief: All rights reserved.
