@@ -241,6 +241,8 @@ Output on AutoCAD
 ### Conclusion
 - This is good example how I develop all of  my programs via working in small iteration
 - Each version doing small improvements on earlier version
- 
 
-
+### References
+- Excel File : [AutoCAD Table Sample Code](https://nodesauto-my.sharepoint.com/personal/vivek_nodesautomations_com/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fvivek%5Fnodesautomations%5Fcom%2FDocuments%2FShare%2F2024%2D11%2D17%20AutoCAD%20Table%20Generation%20Code)
+- Youtube Project: [Generate AutoCAD table from Excel using VBA](https://www.youtube.com/watch?v=gw4nGZutEbY)
+- Youtube Excel VBA Basics : [How to create or use excel macro Tutorial](https://www.youtube.com/watch?v=Tepc4iioSaA)
