@@ -16,7 +16,7 @@ image: /assets/images/autocad/autocad-excel-vba.webp
 > This Code requires a full version of AutoCAD. AutoCAD LT do not have support for VBA development.
 {: .prompt-warning }
 
-### Setup on Excel
+### Setup
 - Create new macro-enable excel sheet with below data, change name of table to "DataTable"
   
 | BarID | Dia | Length |
@@ -87,9 +87,9 @@ End Sub
 
 ```
 Output on AutoCAD
-![alt text](/assets/images/autocad/AutoCADTable1.webp)
+![Output1](/assets/images/autocad/AutoCADTable1.webp)
 
-- Congrats !🥳, we have our first working version
+- Congrats !🥳, we have our first working version of table generation code
 - This codes normally uses whichever table styles is active as default.
 - here we are using AutoCAD `Standard` table style since it's new blank drawing. so your version of table might looks different depending on that settings.
 - we'll modify this code further to use excel data instead of fixed values
@@ -132,7 +132,7 @@ Sub CreateTable()
         .SetText 0, 1, "DIA"
         .SetText 0, 2, "LENGTH"
         
-        Dim i As Integer, j As Integer
+        Dim i As Integer
         For i = 1 To tbl.DataBodyRange.Rows.Count
             .SetText i, 0, tbl.DataBodyRange.Cells(i, 1)
             .SetText i, 1, tbl.DataBodyRange.Cells(i, 2)
