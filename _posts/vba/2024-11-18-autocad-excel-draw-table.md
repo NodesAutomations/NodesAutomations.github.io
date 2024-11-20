@@ -1,7 +1,7 @@
 ---
 title: How to draw table in AutoCAD from excel data using VBA
 description : steps to create AutoCAD table using excel data
-date: 17-11-2024
+date: 18-11-2024
 categories: [VBA, AutoCAD]
 tag: [excel,autocad, vba, script, how to]
 image: /assets/images/autocad/autocad-excel-vba.webp
