@@ -243,6 +243,6 @@ Output on AutoCAD
 - Each version doing small improvements on earlier version
 
 ### References
-- Excel File : [AutoCAD Table Sample Code](https://nodesauto-my.sharepoint.com/:f:/g/personal/vivek_nodesautomations_com/Er5KysCWNx9NiE68J0CRkqYBv_fjTfi-p48tbE3FRtOZHQ?e=2U37Nee)
+- Excel File : [AutoCAD Table Sample Code](https://nodesauto-my.sharepoint.com/:f:/g/personal/vivek_nodesautomations_com/Er5KysCWNx9NiE68J0CRkqYBv_fjTfi-p48tbE3FRtOZHQ)
 - Youtube Project: [Generate AutoCAD table from Excel using VBA](https://www.youtube.com/watch?v=gw4nGZutEbY)
 - Youtube Excel VBA Basics : [How to create or use excel macro Tutorial](https://www.youtube.com/watch?v=Tepc4iioSaA)

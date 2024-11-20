@@ -194,6 +194,6 @@ Output
 - You can use this code to generate simple geometry for your FEM programs, or generate sections or reinforcement drawings
 
 ### References
-- Excel file : [AutoCAD Polyline Sample Code](https://nodesauto-my.sharepoint.com/:f:/g/personal/vivek_nodesautomations_com/Ei7upzbveJ5HlPxMLCL6XNQBD7oUZzftheXVFJEM1GTAFw?e=lAsNFc)
+- Excel file : [AutoCAD Polyline Sample Code](https://nodesauto-my.sharepoint.com/:f:/g/personal/vivek_nodesautomations_com/Ei7upzbveJ5HlPxMLCL6XNQBD7oUZzftheXVFJEM1GTAFw)
 - YouTube Excel VBA Basics : [How to create or use excel macro Tutorial](https://www.youtube.com/watch?v=Tepc4iioSaA)
 
