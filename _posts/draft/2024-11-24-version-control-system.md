@@ -1,10 +1,11 @@
 ---
 title: Title
-description: Introduction about me and info on how to use this website?
-date: 02-11-2024
-categories: [Website, Introduction]
+description: discription
+date: 01-01-2025
+categories: []
 tag: []
-pin: true
+# image: /assets/images/batfiles/bat_windows.webp
+published: false
 ---
 
 ### Overview
