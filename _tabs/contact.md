@@ -13,6 +13,8 @@ order: 5
 ```text
 vivek@nodesautomations.com
 ```
+{: .nolineno }
+
 ### If you have any questions or want to discuss something
 - [Join the Nodes Automations Reddit Group](https://www.reddit.com/r/NodesAutomations)
   - Reddit is a popular social media platform where users can share, discuss, and vote on content. I've created separate group  here so user can discuss and ask questions about automation and programming. 
