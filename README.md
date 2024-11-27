@@ -25,3 +25,21 @@
 - Store to sell templates 
 - Programming courses
 - Multiple Version of Code snippets for different app
+
+### Website Colors Codes
+
+Dark Gray
+```
+rgb(119, 123, 132)
+```
+```
+777b84
+```
+
+Light Gray
+```
+rgb(232, 232, 232)
+```
+```
+e8e8e8
+```
