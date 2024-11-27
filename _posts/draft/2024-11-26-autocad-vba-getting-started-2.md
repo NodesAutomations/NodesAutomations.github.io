@@ -82,6 +82,23 @@ End Sub
 
 #### Aligned Dimension
 ```visualbasic
+Sub DrawAlignDimensions()
+
+    'Set start and end points
+    Dim startPoint(0 To 2) As Double, endPoint(0 To 2) As Double
+    startPoint(0) = 10#: startPoint(1) = 10#: startPoint(2) = 0#
+    endPoint(0) = 20#: endPoint(1) = 10#: endPoint(2) = 0#
+        
+    'insertion Point x,y,z coordinate
+    Dim insertionPoint(0 To 2) As Double
+    insertionPoint(0) = 15#: insertionPoint(1) = 12#: insertionPoint(2) = 0#
+ 
+    ' creates Aligned Dim
+    Dim cadDim As AcadDimAligned
+    Set cadDim = ThisDrawing.ModelSpace.AddDimAligned(startPoint, endPoint, insertionPoint)
+    cadDim.TextOverride = "Length = <>"
+
+End Sub
 ```
 
 #### Angular Dimension

@@ -1,5 +1,5 @@
 ---
-title: Getting Started with AutoCAD VBA &#58 Create Hatch
+title: Getting Started with AutoCAD VBA &#58 Set Layers, Colors, Text Style, LineTypes
 description : learn how to modify your AutoCAD VBA code so it will work on ZWCAD, BricsCAD or GStarCAD
 date: 26-11-2024
 categories: [VBA, AutoCAD]
