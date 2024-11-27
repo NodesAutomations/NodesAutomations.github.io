@@ -5,7 +5,7 @@ date: 26-11-2024
 categories: [VBA, AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
-# published: false
+published: false
 ---
 
 ### Overview
@@ -170,38 +170,4 @@ Sub DrawEllipse()
     Set ellipseObj = ThisDrawing.ModelSpace.AddEllipse(centerPoint, majorAxisEndPoint, radiusRatio)
     
 End Sub
-```
-### Annotations
-
-#### Single Line Text
-```visualbasic
-```
-#### MText
-```visualbasic
-```
-#### Rotated Dimension
-```visualbasic
-```
-
-#### Aligned Dimension
-```visualbasic
-```
-
-#### Angular Dimension
-```visualbasic
-```
-
-#### Leader
-```visualbasic
-```
-
-#### MLeader
-```visualbasic
-```
-
-### Get Input From user
-
-
-
-### Modifications for ZWCAD, BricsCAD
-
+``` 
