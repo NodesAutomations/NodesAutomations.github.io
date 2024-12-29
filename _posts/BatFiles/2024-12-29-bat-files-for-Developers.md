@@ -1,14 +1,14 @@
 ---
 title: Bat files for Developers
 description : Bat files for Excel VBA Projects, Visual Studio Code, Visual Studio
-date: 23-11-2024
+date: 29-12-2024
 categories: [Bat Files, VBA,python,C#,IDE]
 tag: [bat file, automation, script, how to]
-image: /assets/images/batfiles/bat_windows.webp
+image: /assets/images/batfiles/bat_developer.webp
 ---
 
 ### Overview
-- This Post contains bat files that i am using to help with development
+- This Post contains bat files that I am using to help with development
 - If you don't know about what is bat files then read this [post](/posts/bat-files-introduction/) first.
 
 ### Open Current folder in Visual Studio Code
@@ -27,6 +27,7 @@ start "" "C:\Users\Ryzen2600x\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 ```
 
 ### Clear VBA Project Files
+- If you use version control for VBA Projects then use this script to remove older files
 ```bat
 del /q "*.bas"
 del /q "*.cls"
@@ -36,6 +37,8 @@ del /q "*.frx"
 ```
 
 ### Clear Visual Studio C# Project
+- This script will clean up your visual studio C# project
+- This is really useful when you need to share your project with client or other developers
 ```bat
 set BIN_DIR=bin
 set OBJ_DIR=obj

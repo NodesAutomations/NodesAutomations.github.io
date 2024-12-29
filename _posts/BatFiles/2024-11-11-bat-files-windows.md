@@ -52,19 +52,3 @@ echo Folder locked
 
 :End
 ```
-
-### Open Current folder in Visual Studio Code
-- This is single line script for Visual Studio Code users
-- This script will open active folder in visual studio code
-- I have this file added to all of my VBA or python projects with version control 
-
-<!-- markdownlint-capture -->
-<!-- markdownlint-disable -->
-> Make sure to copy that `.` at end
-{: .prompt-info }
-<!-- markdownlint-restore -->
-
-```bat
-start "" "C:\Users\Ryzen2600x\AppData\Local\Programs\Microsoft VS Code\Code.exe" .
-```
-
