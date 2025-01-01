@@ -10,6 +10,9 @@
 - `bundle install` to install theme and all plugins
 - `bundle exec jekyll s` to build generate new version and start local server
 
+### Update Theme
+- Update Gem file
+- `bundle install` to update theme
 
 ### Sample Repo
 - [geraldtui](https://github.com/geraldtui/geraldtui.github.io)
