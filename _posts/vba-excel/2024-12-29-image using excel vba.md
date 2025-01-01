@@ -18,6 +18,9 @@ image: /assets/images/excel/excel-image-dropdown.webp
 - In this tutorial, I'll teach you how to setup image dropdown using VBA
 - If you don't know how to work with excel macro then watch this video first: [How to create or use excel macro Tutorial](https://www.youtube.com/watch?v=Tepc4iioSaA)
 
+> I have youtube tutorial for this post : [How to create image dropdowns in excel using VBA](https://youtu.be/_mT6QtCb6wU)
+{: .prompt-tip }
+
 ### Setup
 - Create new excel sheet and import your Images to excel file
 - you can download this Excel file with images as starting point : [Download](https://nodesauto-my.sharepoint.com/:f:/g/personal/vivek_nodesautomations_com/Eld97-el48VPr0ealy_VhuIBZq2ov74ppm3ZDXhRR5Mwkg?e=drrh0y)
