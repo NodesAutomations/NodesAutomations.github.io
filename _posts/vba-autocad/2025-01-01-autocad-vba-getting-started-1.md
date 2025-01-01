@@ -1,32 +1,42 @@
 ---
-title: Getting Started with AutoCAD VBA &#58 Drawing Objects
+title: Getting Started with AutoCAD VBA 1 &#58 Line, Polyline, Circle, Arc, Rectangle, Point
 description : learn how to create AutoCAD Objects like line, circle, arc, rectangle using VBA
-date: 26-11-2024
+date: 01-01-2025
 categories: [VBA, AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
-published: false
 ---
 
 ### Overview
-- In this tutorial i'll show you how to use VBA to generate drawings inside autocad
+- In this tutorial I'll show you how to use VBA to generate basic entities like line, circle, arc and rectangle using VBA
 - I am assuming that 
   - you've already installed [AutoCAD VBA Module](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3kxk0RyvfWTfSfAIrcmsLQ.html)
   - you have basic knowledge of `VBA` and how to create new method or functions
 
-> Bydefault AutoCad don't include vba installation with main installer. You have to install `VBA` module seperately.
-> Download your vba module from here : [AutoCAD VBA Module](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3kxk0RyvfWTfSfAIrcmsLQ.html)
+> By default, AutoCAD don't include `VBA` installation with main installer. You have to install `VBA` module separately.
+> Download your `VBA` module from here : [AutoCAD VBA Module](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3kxk0RyvfWTfSfAIrcmsLQ.html)
 {: .prompt-tip }
 
-> AutoCAD LT don't have support for VBA, you have to use full version of AutoCAD to run `VBA` code.
+> AutoCAD LT don't have support for `VBA`, you have to use full version of AutoCAD to run `VBA` code.
 {: .prompt-warning }
 
 ### Setup on AutoCAD
--
+- Open blank AutoCAD file with default template, open Visual Basic Editor and Add new module
+- Add any sample Code from below and just run it, try to change values like point, length, radius and re-run it.
+- To save this code for future use
+  - Open `VBA` Editor , when you save this file by pressing `CTRL` + `S`, AutoCAD will allow you to save this as `*.dvb` file
+  - You have to load this file manually every time you want to run this code from Ribbon > `Manage` Tab > `Applications` Group > `Load Application` Button
+  - You can also add file to Startup suite, so this project will automatically loaded every time you open AutoCAD
+  - AutoCAD also have option to embed `VBA` code with drawing file. I would not advise you to use this option if you're sharing this file with multiple people. To use this option go to Ribbon > `Manage` Tab > `Applications` Group > `Run VBA Macro` Button > `Options` Button > `Enable auto embedding` Checkbox
 
-### How to run your first code
-
+> Saving `VBA` code directly with `*.dwg` file is not good idea. It might cause problems on other system or different CAD software. I would recommend  to use `*.dvb` files with StarUp Suite for regular macro.
+{: .prompt-tip }
+ 
 ### Drawing Objects
+- Sample codes for each basic objects are given below
+- You can copy paste this code to `VBA` editor to directly run it without any inputs
+- Current code is very simple, I'll try to add bit more details into this code in future, like code to modify it's different properties
+- This is very basic code and self-explanatory, if you still need help then use AI tools like ChatGPT to understand this code, only contact me if everything else fail 😅
 
 #### Circle
 ```visualbasic
