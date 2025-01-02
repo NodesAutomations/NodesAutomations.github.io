@@ -2,7 +2,7 @@
 title: Best Resources to learn VBA in <script>document.write(/\d{4}/.exec(Date())[0])</script>
 description : find out which are best books, websites, YouTube channels to learn VBA in 2025
 date: 21-11-2024
-categories: [VBA, Programming]
+categories: [VBA]
 tag: [list, vba]
 image: /assets/images/best/best-vba.webp
 ---
