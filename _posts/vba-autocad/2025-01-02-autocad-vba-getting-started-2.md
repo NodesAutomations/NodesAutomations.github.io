@@ -1,6 +1,7 @@
 ---
 title: Getting Started with AutoCAD VBA 2 &#58 Annotations, Dimensions, Leader
 description : AutoCAD VBA Code for Text, Mtext, Dimensions, Leaders
+date: 02-01-2025
 categories: [VBA, AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
