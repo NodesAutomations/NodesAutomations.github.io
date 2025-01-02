@@ -1,30 +1,25 @@
 ---
-title: Getting Started with AutoCAD VBA &#58 Annotations, Dimensions, Leader
+title: Getting Started with AutoCAD VBA 2 &#58 Annotations, Dimensions, Leader
 description : learn how to create AutoCAD Objects like Text, Mtext, Dimensions, Leaders using VBA
-date: 26-11-2024
+date: 02-01-2025
 categories: [VBA, AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
-published: false
 ---
 
 ### Overview
-- In this tutorial i'll show you how to use VBA to generate drawings inside autocad
+- In this tutorial I’ll show you how to use VBA to generate annotations like text, dimensions and leaders using VBA
 - I am assuming that 
   - you've already installed [AutoCAD VBA Module](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3kxk0RyvfWTfSfAIrcmsLQ.html)
   - you have basic knowledge of `VBA` and how to create new method or functions
-
-> Bydefault AutoCad don't include vba installation with main installer. You have to install `VBA` module seperately.
-> Download your vba module from here : [AutoCAD VBA Module](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3kxk0RyvfWTfSfAIrcmsLQ.html)
-{: .prompt-tip }
-
-> AutoCAD LT don't have support for VBA, you have to use full version of AutoCAD to run `VBA` code.
-{: .prompt-warning }
+  - you already know how to draw basic objects , if not please go through this post first : [Getting Started with AutoCAD VBA 1 : Line, Polyline, Circle, Arc, Rectangle, Point](/posts/autocad-vba-getting-started-1/)
 
 ### Setup on AutoCAD
--
-
-### How to run your first code
+- Open blank AutoCAD file with default template, open Visual Basic Editor and Add new module
+- Add any sample Code from below and just run it, try to change values like text, text Height, coordinates re-run it.
+- Sample codes for each basic objects are given below. You can copy paste this code to `VBA` editor to directly run it without any inputs
+- Current code is very simple, I'll try to add bit more details into this code in future, like code to modify it's different properties
+- This is very basic code and self-explanatory, if you still need help then use AI tools like ChatGPT to understand this code, only contact me if everything else fail 😅
  
 ### Text Annotations
 
@@ -115,10 +110,3 @@ End Sub
 #### MLeader
 ```visualbasic
 ```
-
-### Get Input From user
-
-
-
-### Modifications for ZWCAD, BricsCAD
-
