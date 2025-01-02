@@ -1,10 +1,10 @@
 ---
 title: Getting Started with AutoCAD VBA 2 &#58 Annotations, Dimensions, Leader
-description : learn how to create AutoCAD Objects like Text, Mtext, Dimensions, Leaders using VBA
-date: 02-01-2025
+description : AutoCAD VBA Code for Text, Mtext, Dimensions, Leaders
 categories: [VBA, AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
+published: false
 ---
 
 ### Overview

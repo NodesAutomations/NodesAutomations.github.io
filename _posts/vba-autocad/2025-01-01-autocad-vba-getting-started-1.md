@@ -1,6 +1,6 @@
 ---
 title: Getting Started with AutoCAD VBA 1 &#58 Line, Polyline, Circle, Arc, Rectangle, Point
-description : learn how to create AutoCAD Objects like line, circle, arc, rectangle using VBA
+description : AutoCAD VBA Code for line, polyline, circle, arc, point
 date: 01-01-2025
 categories: [VBA, AutoCAD]
 tag: [autocad, vba,howto]
