@@ -4,7 +4,6 @@ description : AutoCAD VBA Code for Text, Mtext, Dimensions, Leaders
 categories: [VBA, AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
-published: false
 ---
 
 ### Overview
@@ -73,6 +72,27 @@ End Sub
 
 #### Rotated Dimension
 ```visualbasic
+Sub DrawRotatedDimensions()
+
+    'Set start and end points
+    Dim startPoint(0 To 2) As Double, endPoint(0 To 2) As Double
+    startPoint(0) = 10#: startPoint(1) = 10#: startPoint(2) = 0#
+    endPoint(0) = 20#: endPoint(1) = 11#: endPoint(2) = 0#
+        
+    'Insertion point for text
+    Dim insertionPoint(0 To 2) As Double
+    insertionPoint(0) = 15#: insertionPoint(1) = 12#: insertionPoint(2) = 0#
+ 
+    'rotation angle , multiply with  3.141592 / 180 to convert degree to radians
+    Dim rotationAngle As Double
+    rotationAngle = 0 * 3.141592 / 180#
+    
+    'Creates dim
+    Dim cadDim As AcadDimRotated
+    Set cadDim = ThisDrawing.ModelSpace.AddDimRotated(startPoint, endPoint, insertionPoint, rotationAngle)
+    cadDim.TextOverride = "Length = <>"
+    
+End Sub
 ```
 
 #### Aligned Dimension
@@ -84,11 +104,11 @@ Sub DrawAlignDimensions()
     startPoint(0) = 10#: startPoint(1) = 10#: startPoint(2) = 0#
     endPoint(0) = 20#: endPoint(1) = 10#: endPoint(2) = 0#
         
-    'insertion Point x,y,z coordinate
+    'Insertion point for text
     Dim insertionPoint(0 To 2) As Double
     insertionPoint(0) = 15#: insertionPoint(1) = 12#: insertionPoint(2) = 0#
  
-    ' creates Aligned Dim
+    'Creates dim
     Dim cadDim As AcadDimAligned
     Set cadDim = ThisDrawing.ModelSpace.AddDimAligned(startPoint, endPoint, insertionPoint)
     cadDim.TextOverride = "Length = <>"
@@ -98,6 +118,27 @@ End Sub
 
 #### Angular Dimension
 ```visualbasic
+Sub DrawAngularDimensions()
+    
+    'Set origin point, center of arc
+    Dim originPoint(0 To 2) As Double
+    originPoint(0) = 0#: originPoint(1) = 0#: originPoint(2) = 0#
+         
+    'Set start and end points of arc
+    Dim startPoint(0 To 2) As Double, endPoint(0 To 2) As Double
+    startPoint(0) = 10#: startPoint(1) = 0#: startPoint(2) = 0#
+    endPoint(0) = 0#: endPoint(1) = 10#: endPoint(2) = 0#
+        
+    'Insertion point for text
+    Dim insertionPoint(0 To 2) As Double
+    insertionPoint(0) = 10#: insertionPoint(1) = 10#: insertionPoint(2) = 0#
+ 
+    'Creates dim
+    Dim cadDim As AcadDimAngular
+    Set cadDim = ThisDrawing.ModelSpace.AddDimAngular(originPoint, startPoint, endPoint, insertionPoint)
+    cadDim.TextOverride = "Length = <>"
+    
+End Sub
 ```
 
 ### Leaders
@@ -105,8 +146,54 @@ End Sub
 
 #### Leader
 ```visualbasic
+Sub DrawLeader()
+
+    'Insert point for mtext
+    Dim insertionPoint(0 To 2) As Double
+    insertionPoint(0) = 7: insertionPoint(1) = 5#: insertionPoint(2) = 0#
+ 
+    'create mtext object
+    Dim cadMText As AcadMText
+    Set cadMText = ThisDrawing.ModelSpace.AddMText(insertionPoint, 20, "Hello World")
+ 
+    'points for leader
+    Dim points(0 To 8) As Double
+    points(0) = 0: points(1) = 0: points(2) = 0
+    points(3) = 5: points(4) = 5: points(5) = 0
+    points(6) = 7: points(7) = 5: points(8) = 0
+ 
+    'create new leader
+    Dim cadLeader As AcadLeader
+    Set cadLeader = ThisDrawing.ModelSpace.AddLeader(points, cadMText, acLineWithArrow)
+    
+    'Adjust text height
+    cadMText.Height = 0.5
+    
+End Sub
 ```
 
 #### MLeader
 ```visualbasic
+Sub DrawMeader()
+ 
+    'points for leader
+    Dim points(0 To 8) As Double
+    points(0) = 0: points(1) = 0: points(2) = 0
+    points(3) = 5: points(4) = 5: points(5) = 0
+    points(6) = 7: points(7) = 5: points(8) = 0
+ 
+    'create new MLeader
+    Dim cadLeader As AcadMLeader
+    Set cadLeader = ThisDrawing.ModelSpace.AddMLeader(points, 0)
+    
+    'Update  text
+    cadLeader.textString = "Hello World"
+    cadLeader.textHeight = 0.5
+    
+    'Update Leader properties
+    cadLeader.leaderType = AcMLeaderType.acStraightLeader
+    cadLeader.ArrowheadType = AcDimArrowheadType.acArrowClosed
+    
+End Sub
+ 
 ```
