@@ -1,11 +1,10 @@
 ---
-title: Getting Started with AutoCAD VBA 3 &#58 Get input or send output
+title: Getting Started with AutoCAD VBA 3 &#58 Get inputs from user and display output
 description : learn how to get inputs from user via using VBA
 date: 03-01-2025
 categories: [VBA, AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
-published: false
 ---
 
 ### Overview
@@ -22,9 +21,9 @@ published: false
 - Current code is very simple, I'll try to add bit more details into this code in future, like code to modify it's different properties
 - This is very basic code and self-explanatory, if you still need help then use AI tools like ChatGPT to understand this code, only contact me if everything else fail 😅
 
-### Send output to user
+### Display output to user
 
-#### Send message via AutoCAD terminal
+#### AutoCAD terminal
 
 ```vb
 Sub SendMessage()
@@ -32,8 +31,20 @@ Sub SendMessage()
     ThisDrawing.Utility.Prompt "Hello World" & vbCrLf
 End Sub
 ```
-#### Send message using message box
+```vb
+Sub SendMessage()
+    Dim radius As Double
+    radius = 5
+    ThisDrawing.Utility.Prompt "Radius=" & radius & vbCrLf
+End Sub
+```
+#### Message box
 
+```vb
+Sub SendMessage()
+    MsgBox ("Hello World")
+End Sub
+```
 
 #### Send Command 
 
@@ -50,34 +61,28 @@ End Sub
 
 ```vb
 Sub GetString()
-
     'Get string input
     Dim title As String
     title = ThisDrawing.Utility.GetString(True, "Enter Drawing Title : ")
     
     'Print title
     ThisDrawing.Utility.Prompt "Your New Drawing title is " & title  & vbCrLf
-
 End Sub
 ```
 ```vb
 Sub GetDecimalValue()
-
     Dim radius As Double
     radius = ThisDrawing.Utility.GetReal("Enter Circle Radius : ")
     
     ThisDrawing.Utility.Prompt "Your circle radius is " & radius & vbCrLf
-
 End Sub
 ```
 ```vb
 Sub GetDecimalValue()
-
     Dim count As Integer
     count = ThisDrawing.Utility.GetInteger("Enter Circle Count : ")
     
     ThisDrawing.Utility.Prompt "Your circle count is " & count & vbCrLf
-
 End Sub
 ```
 
@@ -86,7 +91,6 @@ End Sub
 
 ```vb
 Sub GetInputUsingInputBox()
-
     'Integer
     Dim count As Integer
     count = CDbl(InputBox("Enter the number of the circle:", "Circle Count"))
@@ -98,15 +102,47 @@ Sub GetInputUsingInputBox()
     'String
     Dim title As String
     title = CStr(InputBox("Enter the drawing title:", "Drawing Title"))
-    
 End Sub
 ```
 
 #### Get Point from user
+```vb
+Sub GetPointFromUser()
+ Dim basePoint As Variant
+ basePoint = ThisDrawing.Utility.GetPoint(, "Pick Base point : ")
+ 
+ ThisDrawing.Utility.Prompt "Selected base point is: " & basePoint(0) & ", " & basePoint(1) & ", " & basePoint(2) & vbCrLf
+End Sub
+```
 
 #### Get Distance from user
-
+```vb
+Sub GetDistanceFromUser()
+    Dim distance As Double
+    distance = ThisDrawing.Utility.GetDistance(, "Specify Distance:")
+    
+    ThisDrawing.Utility.Prompt distance & vbCrLf
+End Sub
+```
 #### Get Angle from user
+```vb
+Sub GetAngleFromUser()
+ Dim angle As Double
+ angle = ThisDrawing.Utility.GetAngle(, "Specify Angle")
+  
+ ThisDrawing.Utility.Prompt "Angle in radian is : " & angle & vbCrLf
+End Sub
+```
 
-#### Get Keyword from user
+#### Get Keywords from user to switch between different options
+```vb
+Sub GetAngleFromUser()
+ 'Set Keyword input
+ ThisDrawing.Utility.InitializeUserInput 1, "Height Width Depth"
 
+ Dim result As String
+ result = ThisDrawing.Utility.GetKeyword("Enter a keyword [ Height/Width/Depth ]:")
+  
+ ThisDrawing.Utility.Prompt "You've selected: " & result & vbCrLf
+End Sub
+```
