@@ -2,7 +2,7 @@
 title: Bat files for Developers
 description : Bat files for Excel VBA Projects, Visual Studio Code, Visual Studio
 date: 28-12-2024
-categories: [Bat Files, VBA,python,C#,IDE]
+categories: [Scripts,Bat Files]
 tag: [bat file, automation, script, how to]
 image: /assets/images/batfiles/bat_developer.webp
 ---

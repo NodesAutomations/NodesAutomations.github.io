@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Bat File Introduction
 description : Intro to Bat files for automation
 date: 08-11-2024
-categories: [Bat Files, Windows]
+categories: [Scripts,Bat Files]
 tag: [bat file, automation, script, how to]
 image: /assets/images/batfiles/bat_intro.webp
 ---
