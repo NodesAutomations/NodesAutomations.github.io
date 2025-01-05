@@ -2,7 +2,7 @@
 title: 📖 Best Resources to learn VBA in 2025
 description : find out which are best books, websites, YouTube channels to learn VBA in 2025
 date: 21-11-2024
-categories: [VBA]
+categories: [Developer Tools and Resources,Programming]
 tag: [list, vba]
 image: /assets/images/best/best-vba.webp
 ---
