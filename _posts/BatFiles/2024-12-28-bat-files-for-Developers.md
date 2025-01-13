@@ -25,7 +25,10 @@ image: /assets/images/batfiles/bat_developer.webp
 ```bat
 start "" "C:\Users\Ryzen2600x\AppData\Local\Programs\Microsoft VS Code\Code.exe" .
 ```
-
+if you're planning to use it on multiple desktops
+```bat
+start "" "%USERPROFILE%\AppData\Local\Programs\Microsoft VS Code\Code.exe" .
+```
 ### Clear VBA Project Files
 - If you use version control for VBA Projects then use this script to remove older files
 
