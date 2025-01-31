@@ -93,5 +93,5 @@ image: /assets/images/best/best-language.webp
   - If you've specific requirements then it's better to discuss this with your department head or your IT department first before investing more time
 
 
-> If you have any questions or want to discuss something : [Join our comment section](https://www.amazon.in)
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations)
 {: .prompt-info }
