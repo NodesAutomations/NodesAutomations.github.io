@@ -68,3 +68,6 @@ Now using this command, you can run as many models you like in sequence, may if 
 ```
 > If you have very large models or models with lot of load combinations that each model might take few hours to run analysis then it's best to run this bat file at end of workday and leave computer running whole night. You can come back next morning to check out the completed analysis. 
 {: .prompt-tip }
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iekkst/bat_files_for_staad_pro_nodes_automations/)
+{: .prompt-info }

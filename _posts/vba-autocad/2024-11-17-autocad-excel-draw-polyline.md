@@ -197,3 +197,6 @@ Output
 - Excel file : [AutoCAD Polyline Sample Code](https://nodesauto-my.sharepoint.com/:f:/g/personal/vivek_nodesautomations_com/Ei7upzbveJ5HlPxMLCL6XNQBD7oUZzftheXVFJEM1GTAFw)
 - YouTube Excel VBA Basics : [How to create or use excel macro Tutorial](https://www.youtube.com/watch?v=Tepc4iioSaA)
 
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iekq5x/how_to_draw_polyline_in_autocad_from_excel_data/)
+{: .prompt-info }

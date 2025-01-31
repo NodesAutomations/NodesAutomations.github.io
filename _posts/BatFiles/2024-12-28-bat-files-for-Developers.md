@@ -55,3 +55,6 @@ for /d /r %%i in (%OBJ_DIR%) do if exist "%%i" rd /s /q "%%i"
 for /d /r %%i in (%GIT_DIR%) do if exist "%%i" rd /s /q "%%i"
 for /d /r %%i in (%VS_DIR%) do if exist "%%i" rd /s /q "%%i"
 ```
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iekoza/bat_files_for_developers_nodes_automations/)
+{: .prompt-info }

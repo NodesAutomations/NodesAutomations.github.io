@@ -43,3 +43,5 @@ image: /assets/images/batfiles/bat_intro.webp
 - `del file.txt` : deletes `file.txt` file in active folder
 - `del *.txt` : deletes all files with `*.txt` extensions
 
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iekjab/bat_file_introduction_nodes_automations/)
+{: .prompt-info }

@@ -52,3 +52,5 @@ echo Folder locked
 
 :End
 ```
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1ieknsk/bat_files_for_windows_tasks_nodes_automations/)
+{: .prompt-info }

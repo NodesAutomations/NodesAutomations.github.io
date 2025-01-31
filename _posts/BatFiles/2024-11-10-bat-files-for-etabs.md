@@ -48,3 +48,6 @@ del /s /q "*.Y07"
 del /s /q "*.Y08"
 del /s /q "*.Y09"
 ```
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iekmdo/bat_files_for_etabs_nodes_automations/)
+{: .prompt-info }
