@@ -19,7 +19,7 @@ image: /assets/images/best/best-language.webp
 #### VBA
 - Difficulty Level : Easy
 - Pros
-  - No Setup Required to start coding. You can just start coding right away this is massive advantage, since setup is where most people get stuck or procrastinate.
+  - No setup required to start coding. You can just start coding right away this is massive advantage, since setup is where most people get stuck or procrastinate.
   - API to connect Excel with lot of popular software’s AutoCAD, STAAD, ETABS
   - Direct Integration with other office software like Word, PowerPoint
   - Macro Recorder (Excel has option to auto generate code for your task when you perform task manually), this used be big deal but now since AI tools like ChatGPT it's not that important.
@@ -83,14 +83,7 @@ image: /assets/images/best/best-language.webp
 
 #### Dynamo
 - Difficulty Level : Normal
-- Tis part is still work in progrss since i've never used Dynamo in my life. So will take feedback from other users.
-<!-- - Pros
-  - It's visual programming language, so you don't have to spend any time to learn traditional programming language.
-  - Direct integration with Revit.
-- Cons
-  - Limited Scope since it's usable only with Revit. 
-- What do I think about it?
-  - I've never used Dynamo in my life, this part is written with help of another friend. -->
+- This part is still work in progrss since i've never used Dynamo in my life. So will take feedback from other users.
 
 ### Conclusion
 - If you have admin access to your computer then choose best language as per your needs.
