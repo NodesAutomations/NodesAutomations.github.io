@@ -64,7 +64,7 @@ image: /assets/images/best/best-language.webp
   - Don't choose this as your first language, it's not beginners friendly.
   - It's good language for large projects or if you want to sell your software commercially.
 
-### Other Languages 
+### Apps specific languages 
 
 #### Auto Lisp
 - Difficulty Level : Easy
