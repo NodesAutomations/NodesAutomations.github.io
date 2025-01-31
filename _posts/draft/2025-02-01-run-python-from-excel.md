@@ -1,7 +1,7 @@
 ---
 title: Run python script directly from excel file
 description : use excel vba to run python script
-date: 02-02-2025
+date: 01-01-2025
 categories: [Python]
 tag: [python, vba,excel]
 image: /assets/images/autocad/autocad-getting-started.webp
