@@ -133,3 +133,7 @@ _Screenshot 5 : Using name range for B2 Cell_
   - you don't need same size images, this will even work with different images sizes
   - you don't need to place all images at same location, you can use different location for each image
   - It will work with images, excel shapes, charts so you have lot of options
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iel041/how_to_create_image_dropdown_using_excel_vba/)
+{: .prompt-info }

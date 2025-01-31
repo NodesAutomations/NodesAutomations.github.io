@@ -72,3 +72,7 @@ _Screenshot 2 : Assign Macro to your image_
 - Image toggles are simple way to save space and add some good visuals to excel sheets
 - You can also use this code to toggle excel shapes and charts
 - one downside of this method is that you'll lose your undo history, so you won't be able to undo your changes after running this macro
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iel4y3/how_to_zoomin_and_zoomout_of_image_on_excel_using/)
+{: .prompt-info }

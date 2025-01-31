@@ -146,3 +146,7 @@ Sub GetAngleFromUser()
  ThisDrawing.Utility.Prompt "You've selected: " & result & vbCrLf
 End Sub
 ```
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iel3sw/getting_started_with_autocad_vba_3_get_inputs/)
+{: .prompt-info }

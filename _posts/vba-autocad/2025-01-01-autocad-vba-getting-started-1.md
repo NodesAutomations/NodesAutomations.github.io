@@ -181,3 +181,7 @@ Sub DrawEllipse()
     
 End Sub
 ``` 
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iel1gk/getting_started_with_autocad_vba_1_line_polyline/)
+{: .prompt-info }

@@ -198,3 +198,6 @@ Sub DrawMeader()
 End Sub
  
 ```
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iel3bb/getting_started_with_autocad_vba_2_annotations/)
+{: .prompt-info }
