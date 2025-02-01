@@ -149,6 +149,7 @@ End Sub
 - Assume that we have rectangle with circle inside
 - Now if we add hatch to rectnalge it will hatch entire area including inner circle, we don't want to hatch inner circle    
 - To solve this issue we have to specify inner regions for hatch
+
 ```vb
 Sub DrawRectangleAndCircleWithHatch()
  
@@ -214,7 +215,9 @@ Sub DrawRectangleAndCircleWithHatch()
     hatchObj.AppendInnerLoop innerEntities
     hatchObj.AppendInnerLoop innerEntities2
 End Sub
-
 ```
 
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1if0iou/getting_started_with_autocad_vba_4_create_hatch/)
+{: .prompt-info }
 
