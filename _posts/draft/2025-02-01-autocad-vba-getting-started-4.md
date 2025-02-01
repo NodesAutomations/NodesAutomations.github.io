@@ -217,8 +217,4 @@ End Sub
 
 ```
 
-> If you have any questions or want to discuss something : [Join our comment section]()
-{: .prompt-info }
-
-
 
