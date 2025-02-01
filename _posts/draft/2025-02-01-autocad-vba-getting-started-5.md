@@ -137,8 +137,56 @@ Sub DrawCircle()
 End Sub
 ```
 
-### Set LineSyle for AutoCAD Objects
+### Set LineType for AutoCAD Objects
+```vb
+Sub CreateLineType()
 
+    Dim lineName As String
+    lineName = "CENTER2"
+ 
+    ' Check if the lineType already exists
+    Dim lineType As AcadLineType
+    On Error Resume Next
+    'This line will throw error if our LineType didn't exist in drawing
+    'That's why we are usign Error Handler here
+    Set lineType = ThisDrawing.Linetypes(lineName)
+    On Error GoTo 0
+    
+    ' If the lineType does not exist, create it
+    If lineType Is Nothing Then
+        Set lineType = ThisDrawing.Linetypes.Add(lineName)
+        MsgBox "LineType '" & lineName & "' loaded successfully.", vbInformation
+    Else
+        MsgBox "LineType '" & lineName & "' already exists.", vbExclamation
+    End If
+    
+    ' Set the lineType as active
+    ThisDrawing.ActiveLinetype = lineType 
+End Sub
+```
+```vb
+Sub DrawCircle()
+    'Circle center x,y,z coordinate
+    Dim centerPoint(0 To 2) As Double
+    centerPoint(0) = 10#: centerPoint(1) = 20#: centerPoint(2) = 0#
+     
+    'Circle radius
+    Dim radius As Double
+    radius = 10#
+     
+    'Create circle object
+    Dim cadCircle As AcadCircle
+    Set cadCircle = ThisDrawing.ModelSpace.AddCircle(centerPoint, radius)
+    
+    
+    cadCircle.lineType = "CENTER2"
+    'cadCircle.lineType = "ZIGZAG"
+    cadCircle.LinetypeScale = 20
+    'Line weight is specified in mm
+    'you can only use linewidth available in autocad
+    cadCircle.Lineweight = 90
+End Sub
+```
 ### Set TextStyle for AutoCAD Objects
 
 
