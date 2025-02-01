@@ -103,3 +103,8 @@ End Sub
 ### Set LineSyle for AutoCAD Objects
 
 ### Set TextStyle for AutoCAD Objects
+
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1if1rs3/getting_started_with_autocad_vba_5_set_colors/)
+{: .prompt-info }
