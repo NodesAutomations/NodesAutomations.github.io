@@ -1,7 +1,7 @@
 ---
 title: Getting Started with AutoCAD VBA 5 &#58 Set Colors, Layers, and Line Types
 description : learn to modify AutoCAD object properties
-date: 01-02-2025
+date: 02-02-2025
 categories: [VBA, AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
