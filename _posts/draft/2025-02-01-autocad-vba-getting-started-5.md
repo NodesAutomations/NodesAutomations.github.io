@@ -24,6 +24,11 @@ image: /assets/images/autocad/autocad-getting-started.webp
 ### Set Color for AutoCAD Objects
 - This code should work with almost all autocad objects
 - We are going to use circle object for this example, since it require least amout of code but you can use any object
+- You can specifiy colors in autocad using two method
+  - Using AutoCAD internal Variables AcColor
+    - You can either specify color name or use layer color
+    - acByLayer will automatically display entity in layor color
+  - Color Index : predefine value of color in AutoCAD 
 
 ```vb
 Sub DrawCircle()
@@ -40,20 +45,16 @@ Sub DrawCircle()
     Dim cadCircle As AcadCircle
     Set cadCircle = ThisDrawing.ModelSpace.AddCircle(centerPoint, radius)
     
-    'Change Circle color using color name
+    'Change circle color using color name
     'acRed is autocad inbuilt varible part of AcColor Enum
     cadCircle.color = acRed
 
+    'Change circle color using color index
     'Red color (Color index 1)
     cadCircle.color = 1
   
 End Sub
 ```
-- You can specifiy colors in autocad using two method
-  - Using AutoCAD internal Variables AcColor
-    - You can either specify color name or use layer color
-    - acByLayer will automatically display entity in layor color
-  - Color Index : predefine value of color in integer
 
 | Color Variable | Value |
 | -------------- | ----- |
@@ -73,6 +74,12 @@ End Sub
 _Screenshot 1 : AutoCAD Color Picker_
 
 ### Set Layer for AutoCAD Objects
+- Layers are good way to group similar objects together
+- By Default AutoCAD will put all newly added entity in active layer
+- So there's two way to specify layer for each entitiy
+  - You can specify layer name for each object in AutoCAD
+  - You can set preferred layer as active layer, before generating your new objects
+
 ```vb
 Sub CreateLayer()
 
@@ -81,11 +88,13 @@ Sub CreateLayer()
     
     Dim layerColor As Integer
     ' Red color (Color index 1)
-    layerColor = 1                               
+    layerColor = 1
     
-    ' Check if the layer already exists$$
+    ' Check if the layer already exists
     Dim layer As AcadLayer
     On Error Resume Next
+    'This line will throw error if our layer didn't exist in drawing
+    'That's why we are usign Error Handler here
     Set layer = ThisDrawing.Layers(layerName)
     On Error GoTo 0
     
@@ -98,8 +107,36 @@ Sub CreateLayer()
         MsgBox "Layer '" & layerName & "' already exists.", vbExclamation
     End If
     
+    ' Set the layer as active
+    ThisDrawing.ActiveLayer = layer
+    
 End Sub
 ```
+```vb
+Sub DrawCircle()
+       
+    'Circle center x,y,z coordinate
+    Dim centerPoint(0 To 2) As Double
+    centerPoint(0) = 10#: centerPoint(1) = 20#: centerPoint(2) = 0#
+     
+    'Circle radius
+    Dim radius As Double
+    radius = 10#
+     
+    'Create circle object
+    Dim cadCircle As AcadCircle
+    Set cadCircle = ThisDrawing.ModelSpace.AddCircle(centerPoint, radius)
+    
+    'Change Circle Layer
+    'You need to specify Name of layer
+    'Make sure to check for your layer before using this
+    'If you enter layer name which don't exist it will throw error
+    cadCircle.layer = "0"
+    'cadCircle.layer = "Reinforcement"
+    
+End Sub
+```
+
 ### Set LineSyle for AutoCAD Objects
 
 ### Set TextStyle for AutoCAD Objects
