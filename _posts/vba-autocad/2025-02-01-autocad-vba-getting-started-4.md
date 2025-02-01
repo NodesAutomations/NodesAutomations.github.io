@@ -8,7 +8,7 @@ image: /assets/images/autocad/autocad-getting-started.webp
 ---
 
 ### Overview
-- In this tutorial i'll show you how to use VBA to add hatch to your drawings
+- In this tutorial I’ll show you how to use VBA to add hatch to your drawings
 - I am assuming that 
   - you've already installed [AutoCAD VBA Module](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3kxk0RyvfWTfSfAIrcmsLQ.html)
   - you have basic knowledge of `VBA` and how to create new method or functions
@@ -99,9 +99,9 @@ Sub DrawCircleWithPatternHatch()
 End Sub
 ```
 ### Create solid hatch for closed polyline
-- Closed polylines is most used object to create hatch area
-- You can create hatch of anyshape using closed polylines
-- If you want to create only hatch without any other object, erase polyine after creating hatch
+- Closed polyline is most used object to create hatch area
+- You can create hatch of any shape using closed polylines
+- If you want to create only hatch without any other object, erase polyline after creating hatch
 
 ```vb
 Sub DrawRectangleWithSolidHatch()
@@ -147,8 +147,8 @@ End Sub
 ```
 ### Create hatch in specific area
 - Assume that we have rectangle with circle inside
-- Now if we add hatch to rectnalge it will hatch entire area including inner circle, we don't want to hatch inner circle    
-- To solve this issue we have to specify inner regions for hatch
+- Now if we add hatch to rectangle, it will hatch entire area including inner circle, but we don't want to hatch inner circle    
+- To solve this issue, we have to specify inner regions for hatch
 
 ```vb
 Sub DrawRectangleAndCircleWithHatch()
@@ -217,7 +217,7 @@ Sub DrawRectangleAndCircleWithHatch()
 End Sub
 ```
 
-
 > If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1if0iou/getting_started_with_autocad_vba_4_create_hatch/)
 {: .prompt-info }
+
 
