@@ -1,7 +1,7 @@
 ---
 title: Getting Started with AutoCAD VBA 6 &#58 Insert Blocks, Attributes, External References
-description : learn how to Insert AutoCAD block references or update attributes
-date: 01-02-2025
+description : learn how to create or update AutoCAD blocks
+date: 03-02-2025
 categories: [VBA, AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
@@ -147,6 +147,9 @@ Public Sub CreateNewBlock()
     Set blockRef = ThisDrawing.ModelSpace.InsertBlock(basePoint, blockName, xScale, yScale, zScale, rotationInRadian)
 End Sub
 ```
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1ifcb51/getting_started_with_autocad_vba_6_insert_blocks/)
+{: .prompt-info }
 
 
 
