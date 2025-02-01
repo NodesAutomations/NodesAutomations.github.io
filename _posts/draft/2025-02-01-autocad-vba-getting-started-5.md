@@ -1,5 +1,5 @@
 ---
-title: Getting Started with AutoCAD VBA 5 &#58 Set Colors, Layers, Text Style, LineTypes
+title: Getting Started with AutoCAD VBA 5 &#58 Set Colors, Layers, and Line Types
 description : learn to modify AutoCAD object properties
 date: 01-02-2025
 categories: [VBA, AutoCAD]
@@ -11,23 +11,23 @@ image: /assets/images/autocad/autocad-getting-started.webp
 - In this tutorial I’ll show you how to use VBA to add hatch to your drawings
 - I am assuming that 
   - you've already installed [AutoCAD VBA Module](https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/3kxk0RyvfWTfSfAIrcmsLQ.html)
-  - you have basic knowledge of `VBA` and how to create new method or functions
+  - you have basic knowledge of `VBA` and how to create new methods or functions
   - you already know how to draw basic objects , if not please go through this post first : [Getting Started with AutoCAD VBA 1 : Line, Polyline, Circle, Arc, Rectangle, Point](/posts/autocad-vba-getting-started-1/)
 
 ### Setup on AutoCAD
 - Open blank AutoCAD file with default template, open Visual Basic Editor and Add new module
-- Add any sample Code from below and just run it, try to change values like colors, lineTypes, Fonts and re-run it.
+- Add any sample Code from below and just run it, try to change values like colors, layers and line Types and re-run it.
 - Sample codes for each basic objects are given below. You can copy paste this code to `VBA` editor to directly run it without any inputs
 - Current code is very simple, I'll try to add bit more details into this code in future, like code to modify it's different properties
 - This is very basic code and self-explanatory, if you still need help then use AI tools like ChatGPT to understand this code, only contact me if everything else fail 😅
 
 ### Set Color for AutoCAD Objects
-- This code should work with almost all autocad objects
+- This code should work with almost all AutoCAD objects
 - We are going to use circle object for this example, since it require least amout of code but you can use any object
-- You can specifiy colors in autocad using two method
+- You can specify colors in AutoCAD using two method
   - Using AutoCAD internal Variables AcColor
     - You can either specify color name or use layer color
-    - acByLayer will automatically display entity in layor color
+    - acByLayer will automatically display entity in layer color
   - Color Index : predefine value of color in AutoCAD 
 
 ```vb
@@ -75,8 +75,8 @@ _Screenshot 1 : AutoCAD Color Picker_
 
 ### Set Layer for AutoCAD Objects
 - Layers are good way to group similar objects together
-- By Default AutoCAD will put all newly added entity in active layer
-- So there's two way to specify layer for each entitiy
+- By Default, AutoCAD will put all newly added entity in active layer
+- So, there's two way to specify layer for each entity
   - You can specify layer name for each object in AutoCAD
   - You can set preferred layer as active layer, before generating your new objects
 
@@ -137,7 +137,7 @@ Sub DrawCircle()
 End Sub
 ```
 
-### Set LineType for AutoCAD Objects
+### Set Line Type for AutoCAD Objects
 ```vb
 Sub CreateLineType()
 
@@ -187,9 +187,6 @@ Sub DrawCircle()
     cadCircle.Lineweight = 90
 End Sub
 ```
-### Set TextStyle for AutoCAD Objects
-
-
 
 > If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1if1rs3/getting_started_with_autocad_vba_5_set_colors/)
 {: .prompt-info }
