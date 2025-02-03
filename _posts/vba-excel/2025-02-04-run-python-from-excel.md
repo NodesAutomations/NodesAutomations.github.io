@@ -1,7 +1,7 @@
 ---
 title: Run python script directly from excel file
 description : use excel vba to run python script
-date: 03-02-2025
+date: 04-02-2025
 categories: [Python]
 tag: [python, vba,excel]
 image: /assets/images/excel/excel-run-python.webp
@@ -119,3 +119,8 @@ End Sub
 ### Conclusion
 - Now we can run our python script directly from excel file using excel VBA
 - This is good way to make our python script more user friendly for users who is not comfortable with running python script manually
+
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1igllej/run_python_script_directly_from_excel_file_nodes/)
+{: .prompt-info }
