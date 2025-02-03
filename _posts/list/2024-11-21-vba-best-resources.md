@@ -83,7 +83,3 @@ image: /assets/images/best/best-vba.webp
 - Once you have good basics then you can try out building few more projects from YouTube or explore someone else projects
 - If you're building your own project then focus on building first working version, you don't have to use best method or best coding practice
 - Use AI tools to speed up your learning, don't generate entire projects code using AI, you need code that you can fix, improve and maintain for long time
-
-
-> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1iektgz/best_resources_to_learn_vba_in_2025_nodes/)
-{: .prompt-info }
