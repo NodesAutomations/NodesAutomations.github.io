@@ -32,7 +32,9 @@ image: /assets/images/best/best-language.webp
 - What do I think about it?
   - I have been coding for more than 10 years now, and I still use VBA on regular basis, it's perfect for smaller or medium size projects, especially when it involves Excel. Lot of my personal tools which I use in my daily routine are written in VBA.
   - Even after all of this limitations, I still recommend VBA to all beginners. VBA will give you best value for time spent.
-  
+  - If you decide to use VBA then check out [Best Resources to learn VBA](/posts/vba-best-resources)
+  - Additionally go through all post with `vba` tags on this website [vba](/tags/vba)
+
 #### Python
 - Difficulty Level : Normal
 - Pros
