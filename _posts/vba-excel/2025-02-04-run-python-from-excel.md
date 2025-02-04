@@ -46,23 +46,23 @@ _Screenshot 1 : Excel Sheet Setup_
 import xlwings as xw
 
 # Get workbook
-area_calculation_worksheet: xl.Book
-area_calculation_worksheet: xw.books.active
+area_calculation_worksheet: xw.Book
+area_calculation_worksheet = xw.books.active
 
 # Get worksheet
-main_worksheet: xl.Worksheet
-main_worksheet: area_calculation_worksheet.sheets["Main"]
+main_worksheet: xw.Sheet
+main_worksheet = area_calculation_worksheet.sheets["Main"]
 
 # Set/Enter inputs
 length = float(main_worksheet["B1"].value)
 width = float(main_worksheet["B2"].value)
 
 # Do some calculations
-area:float
+area: float
 area = length*width
 
 # Display final output
-main_worksheet["B4"].value=area
+main_worksheet["B4"].value = area
 ```
 
 ### VBA Code to Run python
