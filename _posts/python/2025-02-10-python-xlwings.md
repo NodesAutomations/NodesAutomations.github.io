@@ -2,8 +2,8 @@
 title: Automate Excel with Python using xlwings
 description: learn how to use xlwings package to automate excel file using python
 date: 10-02-2025
-categories: [Python]
-tag: [python, excel, how to]
+categories: [Python, Library]
+tag: [python, excel, how to, library]
 image: /assets/images/python/python-xlwings.webp
 ---
 
