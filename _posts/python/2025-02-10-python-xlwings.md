@@ -8,15 +8,16 @@ image: /assets/images/python/python-xlwings.webp
 ---
 
 ### Overview
-- xlwings is my favorite python library to automate excel file
-- xlwings is open source and free to use
+- In this tutorial, I'll show you how to use xlwings package to automate excel file using python
+- xlwings is open source and free to use and it is my favorite library to automate excel file due it it's simple api
+- xlwings have of APIs, i can't cover everything in single post
+- Reading and writing data from and to excel file is most common requirement for excel automation, so only going to focus on that part
 
 ### Setup
 - use `Pip install xlwings` to install xlwings package
 - Create new excel file `sample.xlsx`
 - Create python Script file `Sample.py`, in same folder of your excel file
 - For our tutorial i am going to add some data to our excel file, refer Screenshot 1
-- You can download excel file from this link 
   
 ![Screenshot 1](/assets/images/python/python-xlwings-1.webp)
 _Screenshot 1 : Excel sheet with data_
@@ -114,3 +115,6 @@ else:
     # Close Open excel sheet is multiple sheets are open
     wb.close()
 ```
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1innb20/automate_excel_with_python_using_xlwings_nodes/)
+{: .prompt-info }
