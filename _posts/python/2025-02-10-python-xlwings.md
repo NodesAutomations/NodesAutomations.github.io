@@ -74,8 +74,7 @@ print(f"Area Range Address is {rng.address} and Value is {rng.value}")
 
 # Get Table Range
 rng: xw.Range = sheet["ColumnDataTable"]
-print(
-    f"ColumnDataTable Range Address is {rng.address} and Value is {rng.value}")
+print(f"ColumnDataTable Range Address is {rng.address} and Value is {rng.value}")
 
 for i in range(0, rng.rows.count):
     for j in range(0, rng.columns.count):
@@ -101,8 +100,23 @@ wb: xw.Book = xw.Book()
 # Get first sheet from worksheet
 ws: xw.Sheet = wb.sheets[0]
 
-# Write data to this sheet
+# Write data to this sheet using cell address
 ws["A1"].value = "Hey this string  is comming from python"
+# using row and column Id, Index starting from 0
+ws[1, 0].value = "Index are better option when working with loops"
+
+# Create new name range
+ws.range('A5:C7').name = 'DataRange'
+ws.range('DataRange').value = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+# Create new table
+table: xw.main.Table = ws.tables.add(source=ws.range('A9:C11'), name='ColumnDataTable')
+
+table.header_row_range.value = ["ID", "Length", "Width"]
+table.data_body_range.value = [["C1", 300, 400], ["C2", 300, 500], ["C3", 400, 600]]
+
+# if you want to update single Cell value, use range property with cell index
+# table.range[0, 0].value = "ID"
 
 # Save workbook to current directory of python script
 wb.save("output.xlsx")
@@ -115,6 +129,12 @@ else:
     # Close Open excel sheet is multiple sheets are open
     wb.close()
 ```
+
+### Conclusion
+- xlwings is good alternative if you don't want to use VBA for excel automation
+- It's not going to cover everything you can do VBA but most common requirement
+- If you have complex requirements and can't find API in xlwings then you have to some part of the project in VBA and remaining part in xlwings
+
 
 > If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1innb20/automate_excel_with_python_using_xlwings_nodes/)
 {: .prompt-info }
