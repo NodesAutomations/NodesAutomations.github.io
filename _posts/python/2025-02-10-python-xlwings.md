@@ -132,7 +132,7 @@ else:
 
 ### Conclusion
 - xlwings is good alternative if you don't want to use VBA for excel automation
-- It's not going to cover everything you can do VBA but most common requirement
+- It's not going to cover everything what you can do in VBA but it will cover most common requirement
 - If you have complex requirements and can't find API in xlwings then you have to some part of the project in VBA and remaining part in xlwings
 
 
