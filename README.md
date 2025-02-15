@@ -2,6 +2,7 @@
 - Website for Nodes Automations
 - Website is generated using Jekyll with chirpy theme and hosted using gitpages
 - I also need some place to put my content, idea, news 
+- use `bundle exec jekyll serve` to start Jekyll server
 
 ### Which kind of content i want from this website
 - I am building this website for my personal use
