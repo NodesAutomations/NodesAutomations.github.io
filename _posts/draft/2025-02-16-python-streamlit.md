@@ -5,7 +5,7 @@ date: 16-02-2025
 categories: [Python, Libraries]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-pandas.webp
-# published: false
+published: false
 ---
 
 ### Overview
@@ -45,6 +45,7 @@ st.title("Welcome to Streamlit")
 st.header("This is a header")
 st.subheader("This is a subheader")
 st.text("This is a text")
+st.text("Main Text", help="Add your description here.")
 st.markdown("This is a **markdown** text")
 ```
 
@@ -59,6 +60,35 @@ code = '''def hello():
     print("Hello, World!")'''
 st.code(code, language="python")
 ```
+#### Latex
+- Note: use r before string to escape special characters in latex string
+
+```python
+st.latex(r'a^2 + b^2 = c^2')
+```
+#### HTML
+- html tags are good way to add some custom elements to your webapp 
+
+```python
+st.html(
+    """
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="https://nodesautomations.com/" target="_blank" style="
+            display: inline-block;
+            padding: 10px 20px;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+        ">
+           Nodes Automations
+        </a>
+    </div>
+    """
+)
+```
 
 #### All in one
 - st.write() is another way to display 
@@ -66,6 +96,13 @@ st.code(code, language="python")
 
 ```python
 st.write("Hello, world!")
+```
+
+#### Divider
+- To Separate group of elements
+
+```python
+st.divider()
 ```
 
 ### Input Elements
