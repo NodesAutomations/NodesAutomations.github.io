@@ -105,6 +105,27 @@ st.write("Hello, world!")
 st.divider()
 ```
 
+### Tablular Data
+
+#### Static Table
+- Import pandas using  `import pandas as pd` 
+
+```python
+df = pd.DataFrame([[1, 2, 3], [4, 5, 6], [7, 8, 9]], index=[
+                  "i", "ii", "iii"], columns=["A", "B", "C"])
+st.table(df)
+```
+
+#### Interactive Table
+- Import Pandas and Numpy
+
+```python
+df = pd.DataFrame(np.random.randn(50, 20), columns=(
+    "col %d" % i for i in range(20)))
+
+st.dataframe(df)  # Same as st.write(df)
+```
+
 ### Input Elements
 
 #### Basic inputs
