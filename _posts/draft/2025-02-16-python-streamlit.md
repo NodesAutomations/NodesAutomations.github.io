@@ -43,9 +43,24 @@ st.write("# Streamlit Demo")
 ```python
 st.title("Welcome to Streamlit")
 st.header("This is a header")
+st.subheader("This is a subheader")
 st.text("This is a text")
 st.markdown("This is a **markdown** text")
 ```
+
+#### Caption
+```python
+st.caption("This is a caption")
+```
+
+#### Code
+```python
+code = '''def hello():
+    print("Hello, World!")'''
+st.code(code, language="python")
+```
+
+#### All in one
 - st.write() is another way to display 
 - Difference between st.write() and remaining text elements is that st.write() can take any python object as input while other only accepts string as input
 
