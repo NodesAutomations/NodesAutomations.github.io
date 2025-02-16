@@ -39,6 +39,7 @@ st.write("# Streamlit Demo")
 #### Text Elements
 - Streamlit has multiple ways to display text, you have choose right element based on your requirement
 - Streamlit has built-in support for markdown text (markdown is a simple way to add formatting to text in plain text format, google it)
+
 ```python
 st.title("Welcome to Streamlit")
 st.header("This is a header")
