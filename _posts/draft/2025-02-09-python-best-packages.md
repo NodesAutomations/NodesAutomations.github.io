@@ -1,5 +1,5 @@
 ---
-title: Best Packages for Python
+title: Best Packages and Frameworks for Python
 description: discription
 date: 01-01-2025
 categories: [Python]
@@ -8,6 +8,14 @@ tag: [python]
 published: false
 ---
 
-### xlWings
 
-### ezDxf
+### Frameworks
+
+#### Streamlit
+
+### Libraries
+
+#### xlWings
+
+#### ezDxf
+
