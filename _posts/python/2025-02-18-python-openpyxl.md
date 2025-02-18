@@ -92,3 +92,7 @@ wb.save("output.xlsx")
 ### Conclusion
 - I mostly prefer xlwings over openpyxl due to its simple api
 - But for webapps openpyxl is more suitable as it does not require excel installation
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1isc74a/automate_excel_with_python_using_openpyxl_nodes/)
+{: .prompt-info }
