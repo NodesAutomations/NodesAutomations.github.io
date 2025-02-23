@@ -19,6 +19,21 @@ image: /assets/images/python/python-pandas.webp
 ### Setup
 - use `Pip install pandas` to install pandas package
 - use `import pandas as pd` to import pandas package
+- i am also going to use csv file and excel file which contain column data from below table
+- you can copy paste data from this table and create your own version
+
+| ID  | BREATH | DEPTH |
+| --- | ------ | ----- |
+| C1  | 750    | 400   |
+| C2  | 900    | 400   |
+| C3  | 1050   | 400   |
+| C4  | 830    | 630   |
+| C5  | 1285   | 400   |
+| C6  | 600    | 600   |
+| C7  | 1200   | 400   |
+| C8  | 800    | 400   |
+| C9  | 900    | 600   |
+| C10 | 750    | 300   |
 
 ### Create Dataframe
 
@@ -111,11 +126,18 @@ print(df.sort_values(by=["A", "B"]))
 #### Filter Data
 filter by specific value
 ```python
-print(df.loc[df["B"] > 10])
-print(df.loc[df["DEPTH"] == 600])
-print(df.loc[df["DEPTH"] > 600])
+print(df[df["B"] > 10])
+print(df[df["DEPTH"] == 600])
+print(df[df["DEPTH"] > 600])
 ```
-
+filter but only show specific columns
+```python
+print(df[df["B"] > 10, ["A", "C"]])
+```
+filter by multiple conditions
+```python
+print(df[(df["BREATH"] > 600) & (df["DEPTH"] > 400)])
+```
 #### Clean up Data
 
 
