@@ -5,13 +5,12 @@ date: 22-02-2025
 categories: [Python, Libraries]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-pandas.webp
-# published: false
 ---
 
 ### Overview
-- In this tutorial, I'll show you how to use pandas package to manipulate your tabular data
-- pandas library is open source and free to use and my favorite library to manipulate tabular data due it it's simple api
-- In this tutorial i am going to focus on
+- In this tutorial, I'll show you how to use pandas Library to manipulate your tabular data
+- Pandas Library is open source and free to use and my favorite library to manipulate tabular data due it it's simple API
+- In this tutorial I am going to focus on
   - Basic Data manipulation
   - Reading writing data from and to excel file
 
@@ -138,10 +137,15 @@ filter by multiple conditions
 ```python
 print(df[(df["BREATH"] > 600) & (df["DEPTH"] > 400)])
 ```
-#### Clean up Data
-
-
-
 
 ### Write data to file
-
+#### CSV file
+```python
+df.to_csv("data.csv", index=True)
+```
+#### Excel file
+```python
+df.to_excel("data.xlsx", index=True)
+```
+### Conclusion
+- pandas is a very useful library to manipulate tabular data
