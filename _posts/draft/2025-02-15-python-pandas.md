@@ -5,7 +5,7 @@ date: 22-02-2025
 categories: [Python, Libraries]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-pandas.webp
-published: false
+# published: false
 ---
 
 ### Overview
@@ -20,9 +20,9 @@ published: false
 - use `Pip install pandas` to install pandas package
 - use `import pandas as pd` to import pandas package
 
-### Basic Data manipulation
+### Create Dataframe
 
-#### Create Dataframe
+#### List
 ```python
 df = pd.DataFrame([[1, 2, 3], [4, 5, 6], [7, 8, 9]], index=[
                   "i", "ii", "iii"], columns=["A", "B", "C"])
@@ -46,7 +46,22 @@ df = pd.DataFrame(
     columns=["A", "B", "C"]
 )
 ```
-#### Print Dataframe
+#### CSV File
+```python
+df = pd.read_csv('Column Data.csv')
+```
+#### Excel file
+```python
+df = pd.read_excel('Column Data.xlsx')
+```
+if you have multiple sheets then specify sheet name
+```python
+df = pd.read_excel('Column Data.xlsx', sheet_name="Data")
+```
+
+### Manipulation Dataframe
+
+#### Print Data
 print first/last 5 rows
 ```python
 print(df.head())
@@ -81,7 +96,7 @@ you can also use this to update specific values
 df.loc["i"]["A"] = 100
 print(df.loc["i"]["A"])
 ```
-#### Data Sort
+#### Sort Data
 sort values by specific column
 ```python
 print(df.sort_values(by=["A"]))
@@ -93,25 +108,18 @@ Filter using multiple columns
 print(df.sort_values(by=["A", "B"]))
 ```
 
-#### Data Filter
-
-
-#### Data Clean up
-
-
-
-### Read data from file
-read csv file
+#### Filter Data
+filter by specific value
 ```python
-df = pd.read_csv('Column Data.csv')
+print(df.loc[df["B"] > 10])
+print(df.loc[df["DEPTH"] == 600])
+print(df.loc[df["DEPTH"] > 600])
 ```
-read excel file
-```python
-df = pd.read_excel('Column Data.xlsx')
-```
-if you have multiple sheets then specify sheet name
-```python
-df = pd.read_excel('Column Data.xlsx', sheet_name="Data")
-```
+
+#### Clean up Data
+
+
+
+
 ### Write data to file
 
