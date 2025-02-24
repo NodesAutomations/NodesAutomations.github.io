@@ -49,32 +49,67 @@ cadApp.prompt("Hello,World\n")
 - Just use same method to generate autocad objects 
 
 ```python
+from pyautocad import Autocad, APoint
+
 cadApp = Autocad()
 cadDoc = cadApp.ActiveDocument
 cadModel = cadDoc.ModelSpace
 
+# APoint is custom class for AutoCAD Point
+# It's part of pyautocad library
 centerPoint = APoint(0, 0)
 radius = 10.0
 cadCircle = cadModel.AddCircle(centerPoint, radius)
 ```
 
-#### Document
-- Active Document
-
+#### Line
 ```python
-cadApp = Autocad()
-cadDoc = cadApp.ActiveDocument
+startPoint = APoint(10, 20)
+endPoint = APoint(20, 30)
+cadLine = cadModel.AddLine(startPoint, endPoint)
 ```
 
-#### Modelspace
+#### Polyline
+- since polyline require multiple point, we can't use `APoint` class here
+- we have to use array library to pass multiple points
+- `import array` to use array library
 
 ```python
-cadApp = Autocad()
-cadDoc = cadApp.ActiveDocument
-cadModel = cadDoc.ModelSpace
+# Create 2D point array
+points_2d = [0, 0, 10, 0, 10, 10, 0, 10]
+points_double = array.array("d", points_2d)
+cadModel.AddLightWeightPolyline(points_double)
 ```
 
+- if you want to add one point at a time
 
+```python
+# Create 2D point array
+points_2d = []
+
+points_2d.append(0)
+points_2d.append(0)
+
+points_2d.append(10)
+points_2d.append(0)
+
+points_2d.append(10)
+points_2d.append(10)
+
+points_2d.append(0)
+points_2d.append(10)
+
+points_double = array.array("d", points_2d)
+cadModel.AddLightWeightPolyline(points_double)
+```
+
+#### Text
+```python
+textString = "Hello World"
+insertionPoint = APoint(0, 0)
+textHeight = 2
+cadText = cadModel.AddText(textString, insertionPoint, textHeight)
+```
 
 ### Conclusion
- 
+- pyautocad is good option if you want to automate AutoCAD using python
