@@ -39,7 +39,7 @@ cadApp.prompt("Hello,World\n")
 ### Create New Entity
 - Since pyautocad uses AutoCAD VBA behind the scenes, you can create any AutoCAD entity using AutoCAD VBA API
 - Only Difference is how we access our Document and modelspace
-- I've addes sample code to create new circle in modelspace, you can follow this same process to create another object
+- I've added sample code to create new circle in modelspace, you can follow this same process to create another object
 
 #### Circle
 - This code will create new circle in your active autocad document
@@ -109,6 +109,26 @@ textString = "Hello World"
 insertionPoint = APoint(0, 0)
 textHeight = 2
 cadText = cadModel.AddText(textString, insertionPoint, textHeight)
+```
+
+### Read Data from existing drawing
+#### loop through specific objects in active drawing
+- Loop through all text objects
+- once you have access to the object, you can access its properties similar to AutoCAD VBA
+
+```python
+point = APoint(0, 0)
+for text in cadApp.iter_objects('Text'):
+    print('text: %s at: %s' % (text.TextString, text.InsertionPoint))
+    text.InsertionPoint = APoint(text.InsertionPoint) + point
+```
+```python
+for circle in cadApp.iter_objects('Circle'):
+    print(circle.Center)
+```
+```python
+for line in cadApp.iter_objects('Line'):
+    print(line.StartPoint, line.EndPoint)
 ```
 
 ### Conclusion
