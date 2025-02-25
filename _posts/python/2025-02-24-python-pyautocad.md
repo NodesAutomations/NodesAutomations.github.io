@@ -133,3 +133,7 @@ for line in cadApp.iter_objects('Line'):
 
 ### Conclusion
 - pyautocad is good option if you want to automate AutoCAD using python
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1ixo9n9/automate_autocad_with_python/)
+{: .prompt-info }
