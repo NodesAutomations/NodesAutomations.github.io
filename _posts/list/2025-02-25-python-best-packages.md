@@ -64,29 +64,55 @@ published: false
 
 #### xlWings
 - What is it?
+  - Library to read/modify/write excel file 
 - Pros
+  - Simple to use API with good documentation
+  - Can work with active excel file
+  - Currently in active development, with good community support
 - Cons
+  - Require Excel installation on your system
 - What do i think about it?
+  - This is my favorite library to read/modify/write excel file
+  - only reason to not use it if you don't have excel or want to build webapp
 
-#### openpyxl
+#### [openpyxl](https://openpyxl.readthedocs.io/)
 - What is it?
 - Pros
+  - No dependency on Excel, so you can use it on any computer
+  - Currently in active development
 - Cons
+  - Lack functionality compared to xlWings
 - What do i think about it?
+  - I prefer xlWings over openpyxl due to it's simple api and functionality
+  - I only use this library with streamlit webapps since it's os independent and don't require any excel installation
 
 ### AutoCad Libraries
 
-#### pyautocad
+#### [ezDxf](https://ezdxf.readthedocs.io/)
 - What is it?
+  - library to read/write/modify dxf file
 - Pros
+  - Simple to use API with good documentation
+  - No dependency on AutoCAD, so you can use it on any computer
+  - Currently in active development, so will get more features and fixes with time
 - Cons
+  - Can't work with autocad drawings, we have to convert it to dxf first
 - What do i think about it?
+  - It's my current favorite library to generate drawings via python
+  - It covers 90% stuff most projects requries
 
-#### ezDxf
+#### [pyautocad](https://pyautocad.readthedocs.io/)
 - What is it?
+  - library to manipulate autocad drawings
 - Pros
+  - it can directly work with Active autocad drawings
 - Cons
+  - not in active development, last commit was in 2016
+  - Bad Documentation so not suitable for beginners
 - What do i think about it?
+  - I prefer ezDxf over pyautocad
+  - if really need to automate drawings then ezDxf is best option
+  - If you really want to interact with AutoCAD then go with VBA or C#
 
 ### Data Visualization Libraries
 
