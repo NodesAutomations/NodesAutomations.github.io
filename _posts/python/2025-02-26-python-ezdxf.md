@@ -11,7 +11,7 @@ image: /assets/images/python/python-ezdxf.webp
 - ezdxf is 
   - open source so you can use it for free
   - no dependency on AutoCAD, so you can use it on any computer
-  - no dependensy on windows so you can use it on any operating system or web apps like streamlit
+  - no dependency on windows so you can use it on any operating system or web apps like streamlit
   - In Active development with really good documentation
   - [Documentation](https://ezdxf.readthedocs.io/)
 - Requirements
@@ -24,7 +24,7 @@ image: /assets/images/python/python-ezdxf.webp
 ## Write new dxf file
 
 #### Create new dxf file
-- Copy the below code and run it to generate dxf file with circle
+- Copy the code below and run it to generate dxf file with circle
 - we are using `(0,0)` for point inputs
 
 ```python
@@ -54,7 +54,7 @@ doc = ezdxf.new(dxfversion="R2010")
 doc = ezdxf.new(dxfversion="R2013")
 ```
 
-- By Default dxf file is save in current directory
+- By Default, dxf file is save in current directory
 - you can also save it in specific location by passing path
 
 ```python
@@ -246,9 +246,6 @@ hatch.paths.add_polyline_path(
     [(0, 0), (100, 0), (100, 100), (0, 100)], is_closed=True
 )
 ```
-
-## Read Data from Dxf file
-
 
 ## Conclusion
 - ezdxf is a great package due to
