@@ -12,6 +12,7 @@ image: /assets/images/python/python-pyautocad.webp
   - open source so you can use it for free
   - it uses ActiveX Automation to control AutoCAD, so it's basically a wrapper for AutoCAD VBA API
   - it's not in active development, last commit was in 2016
+  - Bad Documentation
 - Requirements
   - pyautocad required Full version of AutoCAD installed on your system
   - AutoCAD LT won't work with pyautocad
@@ -133,6 +134,7 @@ for line in cadApp.iter_objects('Line'):
 
 ### Conclusion
 - pyautocad is good option if you want to automate AutoCAD using python
+- If you're newbie then i would advise you to skip this package and use something else due to lack of documentation
 
 
 > If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1ixo9n9/automate_autocad_with_python/)
