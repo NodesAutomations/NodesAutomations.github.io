@@ -138,7 +138,33 @@ line = msp.add_line((0, 0), (100, 100))
 ```
 
 #### Polyline
+```python
+points = [(0.0, 0.0)]
+points.append((100, 0))
+points.append((100, 100))
+points.append((0, 100))
+
+msp.add_lwpolyline(points)
+```
 
 #### Text
+```python
+text = msp.add_text("Hello,World.", height=50, rotation=45)
+text.set_placement((100, 100), align=ezdxf.enums.TextEntityAlignment.CENTER)
+```
+
+#### MText
+```python
+mtext = msp.add_mtext("Hello,World.")
+mtext.set_location((100, 100), rotation=45)
+```
+#### Hatch
+```python
+hatch = msp.add_hatch(color=ezdxf.colors.RED)
+hatch.set_pattern_fill("ANSI31", scale=0.5)
+hatch.paths.add_polyline_path(
+    [(0, 0), (100, 0), (100, 100), (0, 100)], is_closed=True
+)
+```
 
 ## Read Data from Dxf file
