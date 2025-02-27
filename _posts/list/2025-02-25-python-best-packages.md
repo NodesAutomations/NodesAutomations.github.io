@@ -47,6 +47,13 @@ published: false
   - As programmer i find it bit hard write code
   - It's best suited for design calculation when you need to see how's perticular calculation is done
 
+
+#### Viktor
+- What is it?
+- Pros
+- Cons
+- What do i think about it?
+
 ### Data Manipulation Libraries
 
 #### Pandas
@@ -60,6 +67,12 @@ published: false
 - Cons
 - What do i think about it?
 
+#### scipy
+- What is it?
+- Pros
+- Cons
+- What do i think about it?
+  
 ### Excel Libraries
 
 #### xlWings
@@ -122,11 +135,29 @@ published: false
 - Cons
 - What do i think about it?
 
+#### Plotly 
+- What is it?
+- Pros
+- Cons
+- What do i think about it?
+
+#### seaborn
+- What is it?
+- Pros
+- Cons
+- What do i think about it?
+
 ### GUI Libraries
 
 ### Libraries for Civil Engineering
 
 #### HandCalc
+- What is it?
+- Pros
+- Cons
+- What do i think about it?
+
+#### forallpeople
 - What is it?
 - Pros
 - Cons
