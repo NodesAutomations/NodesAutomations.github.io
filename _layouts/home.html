@@ -23,7 +23,9 @@ refactor: true
 </div>
 {% endif %}
 
+{% if paginator.page == 1 %}
 {{ content | markdownify }}
+{% endif %}
 
 {% assign all_pinned = site.posts | where: 'pin', 'true' %}
 {% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
