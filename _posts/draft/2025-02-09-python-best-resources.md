@@ -7,3 +7,15 @@ tag: [python]
 # image: /assets/images/batfiles/bat_windows.webp
 published: false
 ---
+
+## Books
+
+## Youtube
+- Coding is fun
+- arjancodes
+- flocode
+- StructuralPython
+- Fanilo Andrianasolo
+
+## Courses
+- 100 days of python
