@@ -184,8 +184,10 @@ st.write("The current number is ", number)
 ```
 
 #### Large Text 
-
-
+```python
+text_data = st.text_area("Text Data", "Write some text here", height=100)
+st.write(text_data)
+```
 #### Check Box
 ```python
 is_Okay_With_Terms = st.checkbox("I accept all the terms and conditions")
