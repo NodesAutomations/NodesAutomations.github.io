@@ -54,6 +54,15 @@ st.markdown("This is a **markdown** text")
 st.caption("This is a caption")
 ```
 
+#### Callouts
+```python
+st.success('This is a success message!', icon="✅")
+st.info('This is a purely informational message', icon="ℹ️")
+st.warning('This is a warning', icon="⚠️")
+st.error('This is an error', icon="🚨")
+st.exception(Exception("This is an exception"))
+```
+
 #### Code
 ```python
 code = '''def hello():
