@@ -4,7 +4,7 @@ description: learn how to create charts using plotly
 date: 01-03-2025
 categories: [Python, Frameworks]
 tag: [python, excel, how to, library]
-image: /assets/images/python/python-streamlit.webp
+image: /assets/images/python/python-plotly.webp
 published: false
 ---
 
@@ -48,5 +48,51 @@ df = pd.DataFrame(data, columns=["7D", "14D", "21D", "28D"])
 #### Line Chart
 
 #### Column Chart
+- To keep things simple let's just plot 7D, 14D, 21D, 28D values for sample 1
+- You can use `df.loc[0:0]` to get 7D, 14D, 21D, 28D values for sample 1
+
+```python
+# Create Column Chart for 7D, 14D, 21D, 28D but only for sample 1
+# Here we are also transposing the data so we can keep 7D, 14D, 21D, 28D on seprates rows for plotly
+plotData = df.loc[0:0].T
+# Create plotly Column Chart
+fig = px.bar(plotData)
+# To plot this on streamlio
+st.plotly_chart(fig)
+```
+
+- Modify your X and Y axis lables
+
+```python
+fig = px.bar(
+    data_frame=plotData,
+    labels={"index": "Days", "value": "Compressive Strength (MPa)"}
+)
+```
+
+- Add Title
+
+```python
+fig = px.bar(
+    data_frame=plotData,
+    labels={"index": "Days", "value": "Compressive Strength (MPa)"},
+    title="Concrete Test Results"
+)
+```
+
+- Using different colors for each columns
+
+```python
+fig = px.bar(
+    data_frame=plotData,
+    labels={"index": "Days", "value": "Compressive Strength (MPa)"},
+    title="Concrete Test Results",
+    color=plotData.index
+)
+```
+
+output
+
+![Column Chart](/assets/images/python/python-plotly-1.webp)
 
 #### Scatter Chart
