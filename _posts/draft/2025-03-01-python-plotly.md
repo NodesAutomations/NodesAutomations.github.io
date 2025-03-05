@@ -45,9 +45,12 @@ df = pd.DataFrame(data, columns=["7D", "14D", "21D", "28D"])
 ```
 ## Predefine Charts
 
-#### Line Chart
+#### Column Chart Using series
+```python
 
-#### Column Chart
+```
+
+#### Column Chart using DataFrame
 - To keep things simple let's just plot 7D, 14D, 21D, 28D values for sample 1
 - You can use `df.loc[0:0]` to get 7D, 14D, 21D, 28D values for sample 1
 
@@ -60,13 +63,17 @@ fig = px.bar(plotData)
 # To plot this on streamlio
 st.plotly_chart(fig)
 ```
+- To get average value of 7D, 14D, 21D, 28D for all samples
 
+```python
+plotData = df.mean().to_frame(name='Average')
+```
 - Modify your X and Y axis lables
 
 ```python
 fig = px.bar(
     data_frame=plotData,
-    labels={"index": "Days", "value": "Compressive Strength (MPa)"}
+    labels={"index": "Days","value": "Compressive Strength (MPa)", "variable": "Sample No"},
 )
 ```
 
@@ -75,7 +82,7 @@ fig = px.bar(
 ```python
 fig = px.bar(
     data_frame=plotData,
-    labels={"index": "Days", "value": "Compressive Strength (MPa)"},
+    labels={"index": "Days","value": "Compressive Strength (MPa)", "variable": "Sample No"},
     title="Concrete Test Results"
 )
 ```
@@ -95,4 +102,26 @@ output
 
 ![Column Chart](/assets/images/python/python-plotly-1.webp)
 
+#### Line Chart using DataFrame
+- Line Chart code is similar to Column Chart code, just change in method name `px.bar` to `px.line`
+
+```python
+plotData = df.loc[0:0].T
+fig = px.line(
+    data_frame=plotData,
+    labels={"index": "Days", "value": "Compressive Strength (MPa)"},
+    title="Concrete Test Results",
+)
+```
+- To plot All Sample Results
+
+```python
+plotdata = df.T
+fig = px.line(
+    data_frame=plotdata,
+    labels={"index": "Days", "value": "Compressive Strength (MPa)"},
+    title="Concrete Test Results",
+)
+st.plotly_chart(fig)
+```
 #### Scatter Chart
