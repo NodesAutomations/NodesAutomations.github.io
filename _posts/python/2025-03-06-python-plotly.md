@@ -1,11 +1,10 @@
 ---
 title: Create charts using plotly
 description: learn how to create charts using plotly
-date: 01-03-2025
+date: 06-03-2025
 categories: [Python, Frameworks]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-plotly.webp
-published: false
 ---
 
 ## Overview
@@ -15,13 +14,14 @@ published: false
   - you can use it with jupyter notebook or with web apps like streamlit
   - In Active development with good documentation
   - [Documentation](https://plotly.com/python/)
+- Plotly have ridiculous amount of features, it's not feasible for me to cover all of them so I am going to focus on only those which I’ve used personally, I'll add more variations and chart types in future
 
 
 ## Setup
 - use `Pip install plotly` to install plotly package
 - i am using streamlit to run this sample code but you can use jupyter notebook
-- for data i've generated Concrete Test Data for M30 Grade Concrete
-- sample code is given below to load this data using pandas,`Pip install pandas` to install pandas package
+- for data I’ve generated Concrete Test Data for M30 Grade Concrete
+- sample code is given below to load this data using pandas, `Pip install pandas` to install pandas package
 
 ```python
 import pandas as pd
@@ -44,10 +44,30 @@ data.append([21.5, 26.2, 27.9, 30.4])
 df = pd.DataFrame(data, columns=["7D", "14D", "21D", "28D"])
 ```
 ## Predefine Charts
+- Import plotly package using `import plotly.express as px`
+- Method to display chart
+  - Streamlit `st.plotly_chart(fig)`
+  - Jupyter Notebook `fig.show()`
 
 #### Column Chart Using series
 ```python
+x_data = ["a", "b", "c"]
+y_data = [1, 3, 2]
+fig = px.bar(x=x_data, y=y_data)
+st.plotly_chart(fig)
+```
 
+- Add Title and Lables to your chart
+- Here keep in mind that exept x and y data everything else is optional
+
+```python
+fig = px.bar(
+    x=x_data,
+    y=y_data,
+    title="Column Chart Using plotly",
+    labels={"x": "Category", "y": "Values"},
+    color=x_data
+)
 ```
 
 #### Column Chart using DataFrame
@@ -102,6 +122,23 @@ output
 
 ![Column Chart](/assets/images/python/python-plotly-1.webp)
 
+#### Line Chart Using series
+
+```python
+quaters = ["2024Q1", "2024Q2", "2024Q3", "2024Q4", "2025Q1"]
+money_spent = [150, 230, 250, 270, 300]
+
+fig = px.line(
+    x=quaters,
+    y=money_spent,
+    title="Column Chart Using plotly",
+    labels={"x": "Quarter", "y": "Amount Spent ($)"},
+    markers=True,
+)
+# Set Y axis range
+fig.update_layout(yaxis_range=[0, max(money_spent) * 1.1])
+```
+
 #### Line Chart using DataFrame
 - Line Chart code is similar to Column Chart code, just change in method name `px.bar` to `px.line`
 
@@ -124,4 +161,7 @@ fig = px.line(
 )
 st.plotly_chart(fig)
 ```
-#### Scatter Chart
+
+## Conclusion
+- Plotly is perfect to adding some visualization to your python App
+- It's ability to pan and zoom specific part of graph make it's perfect for analysis
