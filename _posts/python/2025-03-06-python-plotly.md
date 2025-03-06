@@ -118,8 +118,6 @@ fig = px.bar(
 )
 ```
 
-output
-
 ![Column Chart](/assets/images/python/python-plotly-1.webp)
 
 #### Line Chart Using series
@@ -138,6 +136,8 @@ fig = px.line(
 # Set Y axis range
 fig.update_layout(yaxis_range=[0, max(money_spent) * 1.1])
 ```
+
+![Line Chart](/assets/images/python/python-plotly-2.webp)
 
 #### Line Chart using DataFrame
 - Line Chart code is similar to Column Chart code, just change in method name `px.bar` to `px.line`
