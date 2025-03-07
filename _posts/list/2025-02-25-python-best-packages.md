@@ -12,6 +12,11 @@ published: false
 - In this post i am going to explain most of popular libraries and frameworks used by civil engineers
 - All pros and cons are written from perspective of civil engineers
 - Python has lot of libraries and frameworks, it's not feasible for me try all of them so i am going to focus on only those which i've used personally
+- Basic Requirements for Library/framework
+  - Free to use
+  - Active Development
+  - Good Documentation
+  - Community Support
 
 ### Frameworks
 - it's system to build apps from scratch
