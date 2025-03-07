@@ -1,6 +1,6 @@
 ---
-title: Automate Excel with Python using xlwings
-description: learn how to use xlwings package to automate excel file using python
+title: Automate Apps with VBA API using Python
+description: learn how to use comtypes package to automate Apps with VBA API
 date: 07-03-2025
 categories: [Python, Libraries]
 tag: [python, how to, library]
