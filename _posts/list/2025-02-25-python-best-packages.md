@@ -8,7 +8,7 @@ image: /assets/images/python/python-streamlit.webp
 published: false
 ---
 
-### Overview
+## Overview
 - In this post i am going to explain most of popular libraries and frameworks used by civil engineers
 - All pros and cons are written from perspective of civil engineers
 - Python has lot of libraries and frameworks, it's not feasible for me try all of them so i am going to focus on only those which i've used personally
@@ -18,7 +18,7 @@ published: false
   - Good Documentation
   - Community Support
 
-### Frameworks
+## Frameworks
 - it's system to build apps from scratch
 - Think of it as template of working program that we can modify as per our needs
 - Framework provide skeleton for your app with reusable components and ready to use elements
@@ -59,7 +59,7 @@ published: false
 - Cons
 - What do i think about it?
 
-### Data Manipulation Libraries
+## Data Manipulation Libraries
 
 #### Pandas
 - What is it?
@@ -78,7 +78,7 @@ published: false
 - Cons
 - What do i think about it?
   
-### Excel Libraries
+## Excel Libraries
 
 #### xlWings
 - What is it?
@@ -104,7 +104,7 @@ published: false
   - I prefer xlWings over openpyxl due to it's simple api and functionality
   - I only use this library with streamlit webapps since it's os independent and don't require any excel installation
 
-### AutoCad Libraries
+## AutoCad Libraries
 
 #### [ezDxf](https://ezdxf.readthedocs.io/)
 - What is it?
@@ -132,7 +132,7 @@ published: false
   - if really need to automate drawings then ezDxf is best option
   - If you really want to interact with AutoCAD then go with VBA or C#
 
-### Data Visualization Libraries
+## Data Visualization Libraries
 
 #### MathplotLib
 - What is it?
@@ -152,9 +152,9 @@ published: false
 - Cons
 - What do i think about it?
 
-### GUI Libraries
+## GUI Libraries
 
-### Libraries for Civil Engineering
+## Libraries for Civil Engineering
 
 #### HandCalc
 - What is it?
@@ -167,3 +167,18 @@ published: false
 - Pros
 - Cons
 - What do i think about it?
+
+## Miscellaneous
+
+#### comtypes
+- What is it?
+  - it's python package which will allow you to use VBA API calls using python
+- Pros
+  - Provide workaround for python development for Older software which don't have any official python API
+  - Opensouce with good documentation
+- Cons
+  - It's really hard to debug if you bump into any unknown error
+  - No access to intellisence of class and modules make it very easy to make mistakes in code
+- What do i think about it?
+  - It's good enough for personal project which don't require complex functionality
+  - I always perfer to use official API for my clients for more stability and long term support
