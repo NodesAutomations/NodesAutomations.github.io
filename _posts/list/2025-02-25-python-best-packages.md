@@ -154,7 +154,7 @@ published: false
 
 ## GUI Libraries
 
-## Libraries for Civil Engineering
+## Civil Engineering
 
 #### HandCalc
 - What is it?
