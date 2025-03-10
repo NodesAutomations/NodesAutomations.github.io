@@ -21,39 +21,112 @@ published: false
 
 ## Setup
 - use `Pip install matplotlib` to install Matplotlib  package
-- i am using streamlit to run this sample code but you can use jupyter notebook
-- for data I’ve generated Concrete Test Data for M30 Grade Concrete
-- sample code is given below to load this data using pandas, `Pip install pandas` to install pandas package
+- use `import matplotlib.pyplot as plt` to import
+
+
+## Line Chart
+- for sample data i am using Concrete Test Data for M30 Grade Concrete for 7/14/21/28 days
 
 ```python
-import pandas as pd
+import matplotlib.pyplot as plt
 
-# Concrete Compressive Strength Test Data for 10 samples of M30 Grade Concrete
-# Each sample have 4 results for 7/14/21/28 days
-data = []
-data.append([22.1, 26.9, 28.5, 30.9])
-data.append([21.8, 26.5, 28.2, 30.6])
-data.append([22.5, 27.1, 28.8, 31.0])
-data.append([21.6, 26.3, 28.0, 30.5])
-data.append([22.3, 27.0, 28.6, 30.8])
-data.append([21.9, 26.6, 28.3, 30.7])
-data.append([22.0, 26.8, 28.4, 30.9])
-data.append([21.7, 26.4, 28.1, 30.6])
-data.append([22.2, 26.9, 28.7, 31.1])
-data.append([21.5, 26.2, 27.9, 30.4])
+# Data for M30 concrete strength
+days = [7, 14, 21, 28]
+strength_M30 = [22.1, 26.9, 28.5, 30.9]
 
-# Create DataFrame
-df = pd.DataFrame(data, columns=["7D", "14D", "21D", "28D"])
+# Create new plot using matplotlib
+plt.plot(days, strength_M30)
+
+# Display Plot
+plt.show()
 ```
-## Predefine Charts
+- So that's bare minimum code for you to generate a line chart using matplotlib
+- Now let's try to add more visuals to our chart by going through few variations
+- Also I am only going to show modified part of code for rest of variation so you have to add import statement ,data by yourself
 
-#### Column Chart Using series
+#### Adding multiple lines
+```python
+# Data for M30 concrete strength
+days = [7, 14, 21, 28]
+strength_M30 = [22.1, 26.9, 28.5, 30.9]
+strength_M40 = [25.2, 31.2, 35.2, 40.0]
 
-#### Column Chart using DataFrame
+# Create new plot using matplotlib
+plt.plot(days, strength_M30)
+plt.plot(days, strength_M40)
+```
+#### Adding Labels
+```python
+# Create new plot using matplotlib
+plt.plot(days, strength_M30)
+plt.plot(days, strength_M40)
 
-#### Line Chart Using series
+# Add Title
+plt.title("Compressive Strength Data")
+plt.xlabel("Days")
+plt.ylabel("Strength (MPa)")
+```
+#### Adding Legends
+- Manually enter legend names in sequence of your plot lines
 
-#### Line Chart using DataFrame
+```python
+plt.legend(["M30", "M40"])
+```
+- You can also mention legend with plot itself
 
+```python
+plt.plot(days, strength_M30, label="M30")
+plt.plot(days, strength_M40, label="M40")
+
+plt.legend()
+```
+
+#### Line formatting
+- A format string `[marker][line][color]` consists of a part for color, marker and line
+- [Format Strings Docs](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html#matplotlib.pyplot.plot)
+- Adding Color
+
+```python
+# green line
+plt.plot(days, strength_M30, color="g" , label="M30")
+# red line
+plt.plot(days, strength_M40, color="r" , label="M40")
+# using hex value for red color
+plt.plot(days, strength_M40, color="#FF0000", label="M40")
+```
+
+- Adding Line Style
+
+```python
+# dashed line
+plt.plot(days, strength_M30 , linestyle="--", label="M30")
+# dotted line
+plt.plot(days, strength_M40, linestyle=":", label="M40")
+```
+
+- Adding Line Width
+
+```python
+plt.plot(days, strength_M30, linewidth=2, label="M30")
+plt.plot(days, strength_M40, linewidth=4, label="M40")
+```
+
+- Adding marker
+
+```python
+# triangle marker
+plt.plot(days, strength_M30, marker="^", label="M30")
+# circle marker
+plt.plot(days, strength_M40, marker="o", label="M40")
+```
+
+#### Plot style
+- you need to add this at start of your plot code
+- you can find list of available styles from [Using Style sheets](https://matplotlib.org/stable/users/explain/customizing.html#using-style-sheets)
+
+```python
+plt.style.use("fivethirtyeight")
+```
+## Bar Chart
 
 ## Conclusion
