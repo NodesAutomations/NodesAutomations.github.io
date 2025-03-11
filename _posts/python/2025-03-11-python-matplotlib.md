@@ -261,5 +261,8 @@ plt.show()
 _Screenshot 2 : Bar Chart_
 
 ## Conclusion
-- matplotlib is perfect to add some visualization to your python App
+- matplotlib is perfect way to add some visualization to your python App
 - It's compatible with almost everything be it local app or web app(Streamlit) or Interactive notebook(Jupyter notebook)
+
+## Resources
+- [Matplotlib Tutorials by Corey Schafer](https://youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_&si=bF9KMNxVVWpPo0U8)
