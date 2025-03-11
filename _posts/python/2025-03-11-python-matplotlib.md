@@ -67,6 +67,14 @@ plt.ylabel("Strength (MPa)")
 # Only display specific days on X axis
 plt.xticks(days)
 ```
+
+- You can also pass font size and font weight
+  
+```python
+plt.title("Compressive Strength Data", fontweight="bold", fontsize=20)
+plt.xlabel("Days", fontweight="bold")
+plt.ylabel("Strength (MPa)" ,fontweight="bold")
+```
 #### Adding Legends
 - Manually enter legend names in sequence of your plot lines
 
