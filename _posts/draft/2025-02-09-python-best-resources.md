@@ -12,6 +12,7 @@ published: false
 
 ## Youtube
 - Coding is fun
+- [Corey Schafer](https://www.youtube.com/@coreyms)
 - arjancodes
 - flocode
 - StructuralPython
