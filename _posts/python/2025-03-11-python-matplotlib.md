@@ -1,22 +1,21 @@
 ---
 title: Create charts using matplotlib
 description: learn how to create charts using matplotlib
-date: 10-03-2025
+date: 11-03-2025
 categories: [Python, Frameworks]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-matplotlib.webp
-published: false
 ---
 
 ## Overview
 - Matplotlib is 
   - library for creating static, animated, and interactive visualizations in Python
-  - you can use it with jupyter notebook or with web apps like streamlit
+  - you can use it with Jupiter notebook or with web apps like Streamlit
   - In Active development with good documentation
   - Open source with good [Documentation](https://matplotlib.org/stable/index.html)
 - Requirements
   - python 3.10 or later
-- Matplotlib  have ridiculous amount of features, it's not feasible for me to cover all of them so I am going to focus on only those which I’ve used personally, I'll add more variations and chart types in future
+- Matplotlib has a ridiculous number of features, it's not feasible for me to cover all of them so I am going to focus on only those which I’ve used personally, I'll add more variations and chart types in future
 
 
 ## Setup
@@ -25,7 +24,7 @@ published: false
 
 
 ## Line Chart
-- for sample data i am using Concrete Test Data for M30 Grade Concrete for 7/14/21/28 days
+- for sample data I am using Concrete Test Data for M30 Grade Concrete for 7/14/21/28 days
 
 ```python
 import matplotlib.pyplot as plt
@@ -42,7 +41,7 @@ plt.show()
 ```
 - So that's bare minimum code for you to generate a line chart using matplotlib
 - Now let's try to add more visuals to our chart by going through few variations
-- Also I am only going to show modified part of code for rest of variation so you have to add import statement ,data by yourself
+- Also, I am only going to show modified part of code for rest of variation, so you have to add import statement ,data by yourself
 
 #### Adding multiple lines
 ```python
@@ -65,6 +64,8 @@ plt.plot(days, strength_M40)
 plt.title("Compressive Strength Data")
 plt.xlabel("Days")
 plt.ylabel("Strength (MPa)")
+# Only display specific days on X axis
+plt.xticks(days)
 ```
 #### Adding Legends
 - Manually enter legend names in sequence of your plot lines
@@ -127,6 +128,40 @@ plt.plot(days, strength_M40, marker="o", label="M40")
 ```python
 plt.style.use("fivethirtyeight")
 ```
+
+#### Final Version
+```python
+import matplotlib.pyplot as plt
+
+# Data for M30 concrete strength
+days = [7, 14, 21, 28]
+strength_M30 = [22.1, 26.9, 28.5, 30.9]
+strength_M40 = [25.2, 31.2, 35.2, 40.0]
+
+plt.style.use("fivethirtyeight")
+
+# Create new plot using matplotlib
+plt.plot(days, strength_M30, color="k",
+         linestyle="--", linewidth=1, marker="^", label="M30")
+plt.plot(days, strength_M40,  color="r",
+         linestyle="--", linewidth=1, marker="o",  label="M40")
+
+# Annotations
+plt.title("Compressive Strength Data")
+plt.xlabel("Days")
+plt.ylabel("Strength (MPa)")
+plt.xticks(days)
+plt.legend()
+plt.grid(True)
+
+# Display Plot
+plt.tight_layout()
+plt.show()
+
+```
+![Bar Chart](/assets/images/python/python-matplotlib-1.webp)
+_Screenshot 1 : Line Chart_
+
 ## Bar Chart
 ```python
 import matplotlib.pyplot as plt
@@ -192,8 +227,39 @@ plt.bar(days_index-bar_width/2, strength_M30, label="M30")
 plt.bar(days_index+bar_width/2, strength_M40, label="M40")
 ```
 
-#### Comparision
+#### Final Version
+```python
+import matplotlib.pyplot as plt
+import numpy as np
 
+# Data for M30 concrete strength
+days = [7, 14, 21, 28]
+days_index = np.array(days)
+strength_M30 = [22.1, 26.9, 28.5, 30.9]
+strength_M40 = [25.2, 31.2, 35.2, 40.0]
+bar_width = 0.8
 
+plt.style.use("fivethirtyeight")
+
+# Create new plot using matplotlib
+plt.bar(days_index-bar_width/2, strength_M30, label="M30")
+plt.bar(days_index+bar_width/2, strength_M40, label="M40")
+
+# Annotations
+plt.title("Compressive Strength Data")
+plt.xlabel("Days")
+plt.ylabel("Strength (MPa)")
+plt.xticks(days)
+plt.legend()
+plt.grid(True)
+
+# Display Plot
+plt.tight_layout()
+plt.show()
+```
+![Bar Chart](/assets/images/python/python-matplotlib-2.webp)
+_Screenshot 2 : Bar Chart_
 
 ## Conclusion
+- matplotlib is perfect to add some visualization to your python App
+- It's compatible with almost everything be it local app or web app(Streamlit) or Interactive notebook(Jupyter notebook)
