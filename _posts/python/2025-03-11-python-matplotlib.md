@@ -123,7 +123,7 @@ plt.plot(days, strength_M40, marker="o", label="M40")
 
 #### Plot style
 - you need to add this at start of your plot code
-- you can find list of available styles from [Using Style sheets](https://matplotlib.org/stable/users/explain/customizing.html#using-style-sheets)
+- you can find list of available styles from [Style sheets](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html)
 
 ```python
 plt.style.use("fivethirtyeight")
@@ -266,3 +266,5 @@ _Screenshot 2 : Bar Chart_
 
 ## Resources
 - [Matplotlib Tutorials by Corey Schafer](https://youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_&si=bF9KMNxVVWpPo0U8)
+- [Bar Graph using python tutorial](https://youtu.be/9VK8quGFcSE)
+- [Charts using Subplot and jupyter notebook](https://youtu.be/4DnWYK88-E4)
