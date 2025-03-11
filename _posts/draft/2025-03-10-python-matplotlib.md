@@ -128,5 +128,72 @@ plt.plot(days, strength_M40, marker="o", label="M40")
 plt.style.use("fivethirtyeight")
 ```
 ## Bar Chart
+```python
+import matplotlib.pyplot as plt
+
+# Data for M30 concrete strength
+days = [7, 14, 21, 28]
+strength_M30 = [22.1, 26.9, 28.5, 30.9]
+
+# Create new plot using matplotlib
+plt.bar(days, strength_M30, label="M30")
+
+# Annotations
+plt.title("Compressive Strength Data")
+plt.xlabel("Days")
+plt.ylabel("Strength (MPa)")
+plt.legend()
+
+# Display Plot
+plt.show()
+```
+#### Adding lineChart to bar chart
+- this code will add line chart on top of bar chart
+
+```python
+plt.bar(days, strength_M30, label="M30")
+plt.plot(days, strength_M40, label="M40")
+```  
+
+#### Stacked Bar
+- for stacked bar chart make sure plot with larger value is plotted first
+- If you don't do this bars with higher value will completely cover bars with lower value
+
+```python
+# Plotting M40 bar first due to it's higher value
+plt.bar(days, strength_M40, label="M40")
+plt.bar(days, strength_M30, label="M30")
+```
+
+#### Adding multiple Bars
+- For multiple bars side by side to avoid overlapping we need to adjust days values by adding offsets
+- For this we are going to use numpy
+- import numpy using `import numpy as np`
+- In below sample code we have added 0.8 as offset to Days value to display bars side by side
+- 0.8 is default width of bar in matplotlib, you can adjust that offset value as per your requirement
+
+```python
+days = [7, 14, 21, 28]
+days_index = np.array(days)
+strength_M30 = [22.1, 26.9, 28.5, 30.9]
+strength_M40 = [25.2, 31.2, 35.2, 40.0]
+
+# Create new plot using matplotlib
+plt.bar(days_index, strength_M30, label="M30")
+plt.bar(days_index+0.8, strength_M40, label="M40")
+```
+
+- one more thing you can do is adjust both bars with offset to keep it symmetrical
+
+```python
+bar_width = 0.8
+# Create new plot using matplotlib
+plt.bar(days_index-bar_width/2, strength_M30, label="M30")
+plt.bar(days_index+bar_width/2, strength_M40, label="M40")
+```
+
+#### Comparision
+
+
 
 ## Conclusion
