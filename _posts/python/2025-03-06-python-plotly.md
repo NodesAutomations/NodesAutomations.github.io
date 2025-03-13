@@ -162,6 +162,82 @@ fig = px.line(
 st.plotly_chart(fig)
 ```
 
+## Custom Charts
+- graph_objects module is used to create custom charts
+- Also this method work without pandas 
+- I've added sample code for most common chart tyeps
+
+### Line Chart
+```python
+import plotly.graph_objects as go
+
+# Data for M30 concrete strength
+days = [7, 14, 21, 28]
+strength_M30 = [22.1, 26.9, 28.5, 30.9]
+
+# Create figure
+fig = go.Figure()
+
+# Add traces with custom names
+fig.add_trace(go.Scatter(x=days, y=strength_M30,mode='lines', name='M30'))
+
+# Display plot
+fig.show()
+```
+#### Adding Multiple lines
+```python
+# Data for M30 and M40 concrete strength
+days = [7, 14, 21, 28]
+strength_M30 = [22.1, 26.9, 28.5, 30.9]
+strength_M40 = [25.2, 31.2, 35.2, 40.0]
+
+# Create figure
+fig = go.Figure()
+
+# Add traces with custom names
+fig.add_trace(go.Scatter(x=days, y=strength_M30, mode='lines', name='M30'))
+fig.add_trace(go.Scatter(x=days, y=strength_M40, mode='lines', name='M40'))
+```
+
+#### Adding Labels
+```python
+fig.update_layout(title="Compressive Strength Data",
+                  xaxis_title="Days",
+                  yaxis_title="Strength (MPa)")
+```
+#### Line formatting
+```python 
+fig.add_trace(go.Scatter(x=days, y=strength_M30,
+              mode='lines+markers', name='M30'))
+fig.add_trace(go.Scatter(x=days, y=strength_M40,
+              mode='lines+markers', name='M40'))
+```
+#### Final Version
+```python
+import plotly.graph_objects as go
+
+# Data for M30 and M40 concrete strength
+days = [7, 14, 21, 28]
+strength_M30 = [22.1, 26.9, 28.5, 30.9]
+strength_M40 = [25.2, 31.2, 35.2, 40.0]
+
+# Create figure
+fig = go.Figure()
+
+# Add traces with custom names
+fig.add_trace(go.Scatter(x=days, y=strength_M30,
+              mode='lines+markers', name='M30', line=dict(color='firebrick', width=1, dash='dash')))
+fig.add_trace(go.Scatter(x=days, y=strength_M40,
+              mode='lines+markers', name='M40'))
+
+fig.update_layout(title="Compressive Strength Data",
+                  xaxis_title="Days",
+                  yaxis_title="Strength (MPa)")
+
+# Display plot
+fig.show()
+```
+
 ## Conclusion
 - Plotly is perfect to adding some visualization to your python App
 - It's ability to pan and zoom specific part of graph make it's perfect for analysis
