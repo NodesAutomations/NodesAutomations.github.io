@@ -19,7 +19,7 @@ image: /assets/images/python/python-plotly.webp
 
 ## Setup
 - use `Pip install plotly` to install plotly package
-- i am using streamlit to run this sample code but you can use jupyter notebook
+- i am using streamlit to run this sample code but you can use jupyter notebook or just run locally just use `fig.show()` instead of `st.plotly_chart(fig)`
 - for data I’ve generated Concrete Test Data for M30 Grade Concrete
 - sample code is given below to load this data using pandas, `Pip install pandas` to install pandas package
 
