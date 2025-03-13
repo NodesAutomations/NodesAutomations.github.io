@@ -216,23 +216,50 @@ fig.add_trace(go.Scatter(x=days, y=strength_M40,
 ```python
 import plotly.graph_objects as go
 
-# Data for M30 and M40 concrete strength
+# Sample data
 days = [7, 14, 21, 28]
 strength_M30 = [22.1, 26.9, 28.5, 30.9]
 strength_M40 = [25.2, 31.2, 35.2, 40.0]
+strength_M50 = [30.5, 36.8, 42.1, 48.9]
 
 # Create figure
 fig = go.Figure()
 
-# Add traces with custom names
-fig.add_trace(go.Scatter(x=days, y=strength_M30,
-              mode='lines+markers', name='M30', line=dict(color='firebrick', width=1, dash='dash')))
-fig.add_trace(go.Scatter(x=days, y=strength_M40,
-              mode='lines+markers', name='M40'))
+# Add traces with different colors and styles
+fig.add_trace(go.Scatter(
+    x=days,
+    y=strength_M30,
+    mode='lines+markers',
+    name='M30',
+    line=dict(color='firebrick', width=2)
+))
 
-fig.update_layout(title="Compressive Strength Data",
-                  xaxis_title="Days",
-                  yaxis_title="Strength (MPa)")
+fig.add_trace(go.Scatter(
+    x=days,
+    y=strength_M40,
+    mode='lines+markers',
+    name='M40',
+    line=dict(color='royalblue', width=2, dash='dash')
+))
+
+fig.add_trace(go.Scatter(
+    x=days,
+    y=strength_M50,
+    mode='lines+markers',
+    name='M50',
+    line=dict(color='forestgreen', width=2, dash='dot')
+))
+
+# Update layout
+fig.update_layout(
+    title="<b>Compressive Strength Data<b>",
+    xaxis=dict(
+        title="<b>Days<b>",
+        tickmode='array',
+        tickvals=[7, 14, 21, 28],
+        ticktext=['7', '14', '21', '28']),
+    yaxis_title="<b>Strength (MPa)<b>",
+)
 
 # Display plot
 fig.show()
