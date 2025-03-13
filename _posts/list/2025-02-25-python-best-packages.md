@@ -17,6 +17,7 @@ published: false
   - Active Development
   - Good Documentation
   - Community Support
+- I'll willing to let go of this basic requirements if there's no alternative availble for that package or framwork
 
 ## Frameworks
 - it's system to build apps from scratch
@@ -55,10 +56,22 @@ published: false
 
 #### Viktor
 - What is it?
+  - It's plotform to build webapps using python
 - Pros
+  - Exclusively focus on engineerings applications
+  - Contain most of UI element to take input or display output
+  - Free hosting for public apps
+  - Option to integrate your web app with local software like excel, autocad, revit, staad, etabs 
+  - Option to build private apps with secure login 
 - Cons
+  - Paid subscription to use it for private apps
 - What do i think about it?
-
+  - It's best and only option when you wan to build interactive web apps 
+  - It's proprietary software and can change it's Terms anytime so if you're okay with this then go for it
+  - I've only build simple calculator app using it so still yet to try it's full potential, spcially integration with other sofware
+  - Platform is still pretty new so i don't know how well it's integration with other sofware will work over long time but i have high hopes for it
+  - Additionally this integration with other software also require python setup with all required libraries and viktor setup for that perticular sofware on user system which can be a bit tricky. This can also undermine whole point of using webapps for integration with other software.
+  
 ## Data Manipulation Libraries
 
 #### Pandas
@@ -141,12 +154,6 @@ published: false
 - What do i think about it?
 
 #### Plotly 
-- What is it?
-- Pros
-- Cons
-- What do i think about it?
-
-#### seaborn
 - What is it?
 - Pros
 - Cons
