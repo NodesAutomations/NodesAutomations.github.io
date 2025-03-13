@@ -192,3 +192,7 @@ _Screenshot 1 : Charts with shapes and annotations_
 - [How to Add Shapes to a Figure in Matplotlib?](https://www.scaler.com/topics/matplotlib/plot-shape-matplotlib/)
 - [How To Draw a Rectangle on a Plot in Matplotlib?](https://datavizpyr.com/how-to-draw-a-rectangle-on-a-plot-in-matplotlib/)
 - [Matlab Patches Reference](https://matplotlib.org/stable/api/patches_api.html)
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1ja79gm/add_extra_visuals_to_matplotlib_charts_nodes/)
+{: .prompt-info }

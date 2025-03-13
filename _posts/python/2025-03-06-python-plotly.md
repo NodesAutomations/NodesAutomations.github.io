@@ -165,3 +165,7 @@ st.plotly_chart(fig)
 ## Conclusion
 - Plotly is perfect to adding some visualization to your python App
 - It's ability to pan and zoom specific part of graph make it's perfect for analysis
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1ja77fo/create_charts_using_plotly_nodes_automations/)
+{: .prompt-info }

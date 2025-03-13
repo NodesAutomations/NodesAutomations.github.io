@@ -253,3 +253,7 @@ hatch.paths.add_polyline_path(
   - Active Development
   - No dependency on AutoCAD
 - If you don't need any interactive with AutoCAD, this is great package to use
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1ja76y7/automate_dxf_file_with_python/)
+{: .prompt-info }

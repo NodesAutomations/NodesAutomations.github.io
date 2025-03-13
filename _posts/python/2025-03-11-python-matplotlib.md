@@ -276,3 +276,7 @@ _Screenshot 2 : Bar Chart_
 - [Matplotlib Tutorials by Corey Schafer](https://youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_&si=bF9KMNxVVWpPo0U8)
 - [Bar Graph using python tutorial](https://youtu.be/9VK8quGFcSE)
 - [Charts using Subplot and jupyter notebook](https://youtu.be/4DnWYK88-E4)
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1ja78tg/create_charts_using_matplotlib_nodes_automations/)
+{: .prompt-info }

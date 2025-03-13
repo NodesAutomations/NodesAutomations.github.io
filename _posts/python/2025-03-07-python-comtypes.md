@@ -65,3 +65,7 @@ circle = model_space.AddCircle(center_point, 10)
 - I don't recommend this since it's not officially supported
 - If you're stuck with any error, you're on your own. no one going to help you with that.
 - Only use this if you don't have any other option
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1ja77t7/automate_apps_with_vba_api_using_python_nodes/)
+{: .prompt-info }
