@@ -74,22 +74,23 @@ image: /assets/images/best/python-best-libraries.webp
   
 ## Data Manipulation Libraries
 
-#### Pandas
+#### [Pandas](https://pandas.pydata.org/docs/)
 - What is it?
+  - Library to analyze and manipulate your tabular data
 - Pros
+  - Easy to use Data Structure using `Dataframe` and `Series`
+  - Supports sorting, filtering, aggregation, and manipulation of data
+  - Optimized to work with large Datasets
+  - Currently in active development with good documentation and community support
+  - Compatible with everything be it local app or web app(Streamlit) or Interactive notebook(Jupyter notebook)
 - Cons
+  - Steeper learning curve for beginners due to complex API
 - What do I think about it?
-<!-- #### NumPy
-- What is it?
-- Pros
-- Cons
-- What do I think about it?
+  - It's an essential tool when working with tabular data, there's no alternative to it
+  - it's my go to choice for data analysis and manipulation with python
 
-#### scipy
-- What is it?
-- Pros
-- Cons
-- What do I think about it? -->
+<!-- #### NumPy -->
+<!-- #### scipy -->
   
 ## Excel Libraries
 
