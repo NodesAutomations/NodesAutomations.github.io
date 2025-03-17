@@ -7,9 +7,6 @@ tag: [list, python, library]
 image: /assets/images/best/python-best-libraries.webp
 ---
 
-> This post is still work in progress, feel free to send me suggestions or corrections if you find any
-{: .prompt-info }
-
 ## Overview
 - In this post I am going to explain popular libraries and frameworks used by civil engineers
 - All pros and cons are written from perspective of civil engineers
@@ -20,6 +17,7 @@ image: /assets/images/best/python-best-libraries.webp
   - Good Documentation
   - Community Support
 - I'll willing to let go of this basic requirements if there's no alternative available for that package or framework
+- This post is still work in progress due to my limited exposure to python, feel free to send me suggestions or corrections if you find any
 
 ## Frameworks
 - it's system to build apps from scratch
@@ -29,7 +27,7 @@ image: /assets/images/best/python-best-libraries.webp
   - Reduces development time by Reusable components and ready to use elements
   - Allow us to focus on business logic and features, rather than building everything from scratch
 
-#### Streamlit
+#### [Streamlit](https://docs.streamlit.io/)
 - What is it?
   - It's framework which allows us to create webapps using python
 - Pros
@@ -43,7 +41,7 @@ image: /assets/images/best/python-best-libraries.webp
   - Streamlit solve one major issue I have with python which is deployment
   - You can just build your automation, deploy it on free community server and share it with your clients or users. Users don't need to install anything on their system to use it, just open streamlit link and use it.   
 
-#### Jupyter Notebook
+#### [Jupyter Notebook](https://jupyter.org/documentation)
 - What is it?
   - It's not pure framework or library it's combination of both. I am going to keep this in frameworks group to keep it simple
   - Jupyter Notebook allows us to build interactive notebook using python, similar to excel but all input-output and calculations are done using python
@@ -56,7 +54,7 @@ image: /assets/images/best/python-best-libraries.webp
   - It's best suited for design calculation when you need to see how's particular calculation is done
 
 
-#### Viktor
+#### [Viktor](https://docs.viktor.ai/)
 - What is it?
   - It's platform to build web apps using python
 - Pros
@@ -81,7 +79,7 @@ image: /assets/images/best/python-best-libraries.webp
 - Pros
 - Cons
 - What do I think about it?
-#### NumPy
+<!-- #### NumPy
 - What is it?
 - Pros
 - Cons
@@ -91,11 +89,11 @@ image: /assets/images/best/python-best-libraries.webp
 - What is it?
 - Pros
 - Cons
-- What do I think about it?
+- What do I think about it? -->
   
 ## Excel Libraries
 
-#### xlWings
+#### [xlWings](https://docs.xlwings.org/)
 - What is it?
   - Library to read/modify/write excel file 
 - Pros
@@ -149,7 +147,7 @@ image: /assets/images/best/python-best-libraries.webp
 
 ## Data Visualization Libraries
 
-#### MathplotLib
+#### [Matplotlib](https://matplotlib.org/stable/index.html)
 - What is it?
   - library for creating static, animated, and interactive visualizations in Python
 - Pros
@@ -165,7 +163,7 @@ image: /assets/images/best/python-best-libraries.webp
   - might require more code for complex plots but it's not major issue for me
   - It's perfect for static charts due to its quality and customization options
 
-#### Plotly 
+#### [Plotly](https://plotly.com/python/getting-started/)
 - What is it?
   -  library for creating interactive visualizations
 - Pros
@@ -181,7 +179,7 @@ image: /assets/images/best/python-best-libraries.webp
 
 ## Civil Engineering
 
-#### HandCalc
+#### [HandCalc](https://github.com/connorferster/handcalcs)
 - What is it?
   -  library to render Python calculation code automatically in Latex
 - Pros
@@ -193,7 +191,7 @@ image: /assets/images/best/python-best-libraries.webp
   - It's my go to tool for design calculations using python with Jupyter notebook
   - great tool to create readable reports with calculations and equations
 
-#### forallpeople
+#### [forallpeople](https://github.com/connorferster/forallpeople)
 - What is it?
   - Library to do units-aware calculations in python
 - Pros
@@ -207,7 +205,7 @@ image: /assets/images/best/python-best-libraries.webp
 
 ## Miscellaneous
 
-#### comtypes
+#### [comtypes](https://comtypes.readthedocs.io/en/stable/)
 - What is it?
   - it's python package which will allow you to use VBA API calls using python
 - Pros
