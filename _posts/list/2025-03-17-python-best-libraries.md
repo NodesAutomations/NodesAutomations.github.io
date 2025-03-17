@@ -1,10 +1,10 @@
 ---
-title: 📖 Best Packages and Frameworks for Python 2025
+title: 📖 Best Python Libraries and Frameworks for civil engineers 2025
 description: learn about pros and cons of each library or framework
 date: 17-03-2025
 categories: [Developer Tools and Resources,Programming]
 tag: [list, python, library]
-image: /assets/images/best/python-best-packages.webp
+image: /assets/images/best/python-best-libraries.webp
 ---
 
 ## Overview
