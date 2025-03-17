@@ -1,11 +1,10 @@
 ---
-title: Best Packages and Frameworks for Python 2025
+title: 📖 Best Packages and Frameworks for Python 2025
 description: learn about pros and cons of each library or framework
-date: 25-02-2025
+date: 17-03-2025
 categories: [Developer Tools and Resources,Programming]
 tag: [list, python, library]
-image: /assets/images/python/python-streamlit.webp
-published: false
+image: /assets/images/best/python-best-packages.webp
 ---
 
 ## Overview
@@ -130,7 +129,7 @@ published: false
   - Can't work with autocad drawings, we have to convert it to dxf first
 - What do i think about it?
   - It's my current favorite library to generate drawings via python
-  - It covers 90% stuff most projects requries
+  - It covers 80-90% stuff most projects requries
 
 #### [pyautocad](https://pyautocad.readthedocs.io/)
 - What is it?
@@ -159,7 +158,7 @@ published: false
 - Cons
 - What do i think about it?
 
-## GUI Libraries
+<!-- ## GUI Libraries -->
 
 ## Civil Engineering
 
