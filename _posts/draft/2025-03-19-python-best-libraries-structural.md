@@ -11,3 +11,6 @@ published: false
 #### PyNite
 #### anastruct
 #### IndeterminateBeam
+#### PlaneSections
+#### OpenSeesPy 
+#### StructuralCodes
