@@ -179,6 +179,8 @@ image: /assets/images/best/python-best-libraries.webp
 <!-- ## GUI Libraries -->
 
 ## Civil Engineering
+- Only general purpose libraries will be included
+- For Libraries in specific domain like structural/geotech i'll create separate blog for that
 
 #### [HandCalc](https://github.com/connorferster/handcalcs)
 - What is it?
@@ -218,3 +220,13 @@ image: /assets/images/best/python-best-libraries.webp
 - What do I think about it?
   - It's good enough for personal projects which don't require complex functionality
   - I always prefer to use official API for my clients for more stability and long term support
+
+
+## Conclusion
+- Python has lot of libraries and frameworks, it's easy to get confused or feel overwhelmed by them. 
+- Hopefully my blog will guide you to choose library based on specific needs
+- This is just first working version, I’ll try to add more categories with each revision
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1jeqztv/best_python_libraries_and_frameworks_for_civil/)
+{: .prompt-info }
