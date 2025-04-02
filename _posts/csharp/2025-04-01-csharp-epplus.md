@@ -56,7 +56,7 @@ private static void Main()
     }
 }
 ```
-#### Using sheet index
+#### Worksheet
 - When you don't want specify sheet name use sheet index
 
 ```csharp
@@ -67,7 +67,10 @@ private static void Main()
 //If you have multiple sheets, use sheet index
  var ws = wb.Worksheets[0];
 ```
-
+```csharp
+//If you want to get active sheet or sheet which is last used by user
+ExcelWorksheet activeSheet = wb.Worksheets.FirstOrDefault(sheet => sheet.View.TabSelected);
+```
 #### Data Range
 ```csharp
 ExcelRange dataRange = ws.Cells["B4:E7"];
