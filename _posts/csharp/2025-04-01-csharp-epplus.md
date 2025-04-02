@@ -214,3 +214,6 @@ for (int i = 0; i < tbl.Address.Rows; i++)
 - I have been using EPPlus since version 3 and it's working great for me
 - It has everything you'll ever need to read and write excel file using C#
 
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1jpipvm/automate_excel_with_csharp_using_epplus_nodes/)
+{: .prompt-info }
