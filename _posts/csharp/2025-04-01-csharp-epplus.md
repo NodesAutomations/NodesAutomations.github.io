@@ -160,6 +160,15 @@ if (ws ==null)
     ws = package.Workbook.Worksheets.Add("Data");
 }
 ```
+- You can also delete old sheet and then add new one if you want to start from fresh
+
+```csharp
+ExcelWorksheet ws = package.Workbook.Worksheets["Data"];
+if (ws !=null)
+{
+    package.Workbook.Worksheets.Delete(ws);
+}
+```
 #### Formula
 ```csharp
 ws.Cells["A1"].Value = "10";
