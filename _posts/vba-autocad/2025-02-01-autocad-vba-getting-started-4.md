@@ -2,7 +2,7 @@
 title: Getting Started with AutoCAD VBA 4 &#58 Create Hatch
 description : learn how to create hatch using VBA
 date: 01-02-2025
-categories: [VBA, AutoCAD]
+categories: [VBA, VBA-AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
 ---

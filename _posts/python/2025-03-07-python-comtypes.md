@@ -2,7 +2,7 @@
 title: Automate Apps with VBA API using Python
 description: learn how to use comtypes package to automate Apps with VBA API
 date: 07-03-2025
-categories: [Python, Libraries]
+categories: [Python, Python-Libraries]
 tag: [python, how to, library]
 image: /assets/images/python/python-comtypes.webp
 ---

@@ -2,7 +2,7 @@
 title: Automate Excel with Python using OpenPyXL
 description: learn how to use openpyxl package to automate excel file using python
 date: 18-02-2025
-categories: [Python, Libraries]
+categories: [Python, Python-Libraries]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-openpyxl.webp
 ---

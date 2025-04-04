@@ -2,7 +2,7 @@
 title: Run python script directly from excel file
 description : use excel vba to run python script
 date: 04-02-2025
-categories: [Python, Tutorials]
+categories: [Python, Python-Tutorials]
 tag: [python, vba,excel]
 image: /assets/images/excel/excel-run-python.webp
 ---

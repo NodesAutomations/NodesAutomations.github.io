@@ -2,7 +2,7 @@
 title: Automate dxf file with Python & ezdxf
 description: learn how to use ezdxf package to automate dxf file
 date: 26-02-2025
-categories: [Python, Libraries]
+categories: [Python, Python-Libraries]
 tag: [python, autocad, how to, library,autocad-python]
 image: /assets/images/python/python-ezdxf.webp
 ---

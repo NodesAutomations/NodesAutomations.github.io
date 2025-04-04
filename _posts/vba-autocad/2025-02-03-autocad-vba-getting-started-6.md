@@ -2,7 +2,7 @@
 title: Getting Started with AutoCAD VBA 6 &#58 Insert Blocks, Attributes, External References
 description : learn how to create or update AutoCAD blocks
 date: 03-02-2025
-categories: [VBA, AutoCAD]
+categories: [VBA, VBA-AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
 ---

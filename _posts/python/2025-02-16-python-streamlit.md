@@ -2,7 +2,7 @@
 title: Create webapps using python and streamlit 
 description: learn how to create webapp with python using streamlit framework
 date: 16-02-2025
-categories: [Python, Frameworks]
+categories: [Python, Python-Frameworks]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-streamlit.webp
 ---

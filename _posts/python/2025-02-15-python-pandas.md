@@ -2,7 +2,7 @@
 title: Analyse your data with python using pandas
 description: learn how to use pandas package to clean up or analyze data using python
 date: 22-02-2025
-categories: [Python, Libraries]
+categories: [Python, Python-Libraries]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-pandas.webp
 ---

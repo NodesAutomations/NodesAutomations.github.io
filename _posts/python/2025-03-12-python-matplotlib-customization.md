@@ -2,7 +2,7 @@
 title: Add extra visuals to matplotlib charts
 description: learn how to add shapes and annotations to matplotlib charts
 date: 12-03-2025
-categories: [Python, Frameworks]
+categories: [Python, Python-Libraries]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-matplotlib.webp
 ---

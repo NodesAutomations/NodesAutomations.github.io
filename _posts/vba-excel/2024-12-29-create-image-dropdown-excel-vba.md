@@ -2,7 +2,7 @@
 title: How to create image dropdown using excel VBA
 description : VBA code to create dropdown with image, shape, chart
 date: 29-12-2024
-categories: [VBA, Excel]
+categories: [VBA, VBA-Excel]
 tag: [excel, vba,howto]
 image: /assets/images/excel/excel-image-dropdown.webp
 ---

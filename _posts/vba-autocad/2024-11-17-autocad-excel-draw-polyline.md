@@ -2,7 +2,7 @@
 title: How to draw polyline in AutoCAD from excel data using VBA
 description : steps to create AutoCAD polyline using excel data
 date: 17-11-2024
-categories: [VBA, AutoCAD]
+categories: [VBA, VBA-AutoCAD]
 tag: [excel,autocad, vba, script, how to]
 image: /assets/images/autocad/autocad-excel-vba.webp
 ---

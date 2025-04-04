@@ -2,7 +2,7 @@
 title: Create charts using plotly
 description: learn how to create charts using plotly
 date: 06-03-2025
-categories: [Python, Frameworks]
+categories: [Python, Python-Libraries]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-plotly.webp
 ---

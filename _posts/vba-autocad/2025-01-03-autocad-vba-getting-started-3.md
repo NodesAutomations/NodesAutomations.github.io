@@ -2,7 +2,7 @@
 title: Getting Started with AutoCAD VBA 3 &#58 Get inputs from user and display output
 description : learn how to get inputs from user via using VBA
 date: 03-01-2025
-categories: [VBA, AutoCAD]
+categories: [VBA, VBA-AutoCAD]
 tag: [autocad, vba,howto]
 image: /assets/images/autocad/autocad-getting-started.webp
 ---

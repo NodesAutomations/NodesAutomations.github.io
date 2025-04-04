@@ -2,7 +2,7 @@
 title: Create charts using matplotlib
 description: learn how to create charts using matplotlib
 date: 11-03-2025
-categories: [Python, Frameworks]
+categories: [Python, Python-Libraries]
 tag: [python, excel, how to, library]
 image: /assets/images/python/python-matplotlib.webp
 ---

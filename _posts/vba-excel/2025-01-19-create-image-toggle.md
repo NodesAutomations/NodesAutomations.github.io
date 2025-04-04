@@ -2,7 +2,7 @@
 title: How to Zoom-In and Zoom-out of Image on Excel using VBA
 description : VBA code to change image size on click
 date: 19-01-2025
-categories: [VBA, Excel]
+categories: [VBA, VBA-Excel]
 tag: [excel, vba,howto]
 image: /assets/images/excel/excel-image-toggle.webp
 ---

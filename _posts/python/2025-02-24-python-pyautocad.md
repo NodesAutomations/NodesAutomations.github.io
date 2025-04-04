@@ -2,7 +2,7 @@
 title: Automate AutoCAD with Python & pyautocad
 description: learn how to use pyautocad package to automate your drawings
 date: 24-02-2025
-categories: [Python, Libraries]
+categories: [Python, Python-Libraries]
 tag: [python, autocad, how to, library,autocad-python]
 image: /assets/images/python/python-pyautocad.webp
 ---
