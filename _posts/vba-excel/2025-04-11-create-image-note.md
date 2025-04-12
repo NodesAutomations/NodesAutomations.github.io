@@ -1,6 +1,6 @@
 ---
-title: How to Add Image Note on Excel using VBA
-description : VBA code to add image note
+title: How to add notes with images on excel using VBA
+description : VBA code to add note with image
 date: 11-04-2025
 categories: [VBA, VBA-Excel]
 tag: [excel, vba,howto]
@@ -14,15 +14,19 @@ image: /assets/images/excel/excel-image-note.webp
   - It's good way to add some text information to your excel sheet
   - But for image note instead of adding text we add image via small hack
 - Why?
-  - Add some explaination for your data in form of image 
-  - for example 
+  - Add some explanation for your data in the form of image 
+  - for example,
     - Geometry or section drawings
     - Design Codes clause, tables, charts
 
 ## How to add image note manually
+- Right click on any cell and select "New Note"
+- Pick corner point of this new note and right click again and select "format comment"
+- From Colors and line choose fill effects
+- Set picture for background and click OK
+- I also have YouTube short for this : [How to add image note in excel](https://youtube.com/shorts/suC2KHb9aSY)
 
-
-## Setup
+## Insert note with image VBA code
 
 ```vb
 Sub InsertComment()
@@ -71,4 +75,9 @@ End Sub
 ```
 
 ## Conclusion
+- This is simple way to improve your excel documentation and reference 
+- This won't take any extra space on your sheet and won't be visible when you print your sheet
+- So, use
+  -  Note with images when you don't want display in printout
+  -  Insert Image option when you want to display in printout
  
