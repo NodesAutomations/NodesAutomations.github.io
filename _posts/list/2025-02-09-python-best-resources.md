@@ -16,10 +16,6 @@ image: /assets/images/best/python-best-libraries.webp
   - Targeted to Civil Engineers
 - Most of the resources in this list are not focused on civil engineering so, I'll try to prioritize resources which are focused on civil engineering but programming is still niche in our industry so you have to be comfortable learning python from generic resources
 
-## Books
-
-
-
 ## Courses
 - Personally i think courses are best way to learn python because
   - They are designed with clear and logical learning path so you'll miss any basics.
@@ -28,8 +24,14 @@ image: /assets/images/best/python-best-libraries.webp
   - Comes with Questions and Answers sections, exercises and assignments to practice what you've learned
   - You'll get certificates at the end of the course to include in your resume
   - Courses are regularlly updated to include all latest features of python
+- I've not tried most of this courses because i am already advanced level programmer even before i've started to learn python. But if i have start from statch then i'll definitely try these courses.
 
-#### [Python for Structural Engineers](https://www.structuralpython.com/)
+#### [Python for Structural Engineers](https://pythonforstructuralengineers.com/)
+- This is paid course by Timo Harboe Zollner
+- This course is focused on structural engineering but it should be useful for civil engineers as well you can just ignore stuff related to structural engineering.
+- I've not tried this course personally but i do follow his [Youtube channel](https://www.youtube.com/@Timo-Harboe) and his content is pretty good.
+
+#### [Python for Structural Engineers Async](https://www.structuralpython.com/)
 - This is paid course by [Connor Ferster](https://www.youtube.com/@connorferster)
 - This course is focused on structural engineering but it should be useful for civil engineers as well you can just ignore stuff related to structural engineering.
 - I've not tried this course personally but I do love his content so suggest you to try it.
@@ -45,14 +47,31 @@ image: /assets/images/best/python-best-libraries.webp
 - This playlist is good for beginners and intermediate level
 - This is also generalized course so only focus on stuff related to python, you can ignore stuff realted data sciense or web development or advance python topics that you'll never use for personal projects.
 
+## Books
+
+
 ## Youtube
-- StructuralPython
-- flocode
-- 
-- Coding is fun
+- Books are courses are great for learning basic or intermidate stuff
+- But youtube is great for learning how to use your python for actual projects 
+- Also you'll learn how other people are using python in their daily tasks
+- Most of this channel already assume that you know basics so they focus on how to use python on actual projects.
+
+#### [Structural Python](https://www.youtube.com/@StructuralPython)
+- He also have personal channel [Connor Ferster](https://www.youtube.com/@connorferster)
+- I don't any interest in learning python since i am pretty good with vba and C# and they cover most of my use cases but after watching this channel i have started to learn python because i like his approach of how to use python for structural engineering.
+- If you're structural engineer then you'll love this channel
+
+#### [Timo Harboe](https://www.youtube.com/@Timo-Harboe)
+
+#### [Coding is fun](https://www.youtube.com/@CodingIsFun) 
+- This is great youtube channel for learning python for medium to advance level.
+- I really love his project based approach. Each video is a project which you can build from scratch.
+- His videos more geared towards Data Analysis but there's lot of common stuff related to python programming which are useful for civil engineers
+
+
+#### Few more youtube with good python content
 - [Corey Schafer](https://www.youtube.com/@coreyms)
-- arjancodes
-- CodeWithHarry
+- [arjancodes](https://www.youtube.com/@ArjanCodes)
 
 ####  [Fanilo Andrianasolo](https://www.youtube.com/@andfanilo)
 - This is only focused on python web development
@@ -65,6 +84,11 @@ image: /assets/images/best/python-best-libraries.webp
 - Althought this blog is not focused on python, you'll find lot of post related to python due to it's popularity.
 - I've tried my best to explain each blog from point of civil engineers perspective, that's major difference from other blogs
 - Even sample codes and examples are provided in such a way that civil engineers can relate to it.
+
+#### [flocode](https://flocode.substack.com/)
+- This blog mainly focus on latest news,libraries and tools about python.
+- It's good for intermediate and advance level programmers who already familiar with basics.
+- they also host lot of podcast with external expert speaking about topics related to python programming which are my favorite parts of this blog.
 
 ## Communitites
 - Once you know basics of python and start working on actual project, you're going to need feedback or suggestion form other people.
