@@ -4,7 +4,7 @@ description: explore Books, Courses, Youtube channels
 date: 14-04-2025
 categories: [Developer Tools and Resources, Programming]
 tag: [list, python]
-image: /assets/images/best/python-best-libraries.webp
+image: /assets/images/best/python-best-resources.webp
 ---
 
 ## Overview
