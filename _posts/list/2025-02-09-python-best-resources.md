@@ -48,7 +48,35 @@ image: /assets/images/best/python-best-libraries.webp
 - This is also generalized course so only focus on stuff related to python, you can ignore stuff realted data sciense or web development or advance python topics that you'll never use for personal projects.
 
 ## Books
+- Books are good option for you if you're learning programming for first time
+- Courses and youtube videos can be overwheleming for beginners 
+- Also python language version don't update that often so all basic code syntax normally stays the same
+- current python version is 3.14 and 3.0 release on 3rd december 2008. so you can pick any book with python version 3.0 or later
 
+#### [Python Crash Course by Eric Matthes](https://amzn.in/d/4jGlIwj)
+- The book is designed for beginners and covers the basics of Python programming, including data types, control flow, functions, and classes. 
+- It also delves into more advanced topics like working with files, testing code, and using libraries.
+- The book is divided into two main parts
+  - Basics of Python Programming: This section covers fundamental concepts and syntax, helping readers build a solid foundation in Python.
+  - Projects: The second part includes three practical projects. These projects help readers apply what they've learned in real-world scenarios.
+- Feel free to skip chapters which are not relevent to you like web Applications or game development
+- I've not personally read this book, because i was already at advance level when i've started learning python so my approach to learning python is different from others. But I've picked this books because it's most recommned by others on python communitites.
+
+#### [Automate the boring stuff with python by Al Sweigart](https://amzn.in/d/7UjvMdH)
+- This is one of most popular books for python beginners
+- I've personally read this book and i don't like it found it bit outdated
+- you can read it as your second book if you're really interested in python
+- This books mainly focus on  how to  use python in your daily tasks.
+
+#### [Python for Excel by Felix Zumstein](https://amzn.in/d/ewJy9Je)
+- Felix Zumstein is creator of xlwings python library, I am really big fan of his work with xlwings.
+- Books mostly focus on integrating python with excel for data analysis and visualization.
+- Book devided into four main parts
+  - Introduction to Python: Covers the basics of Python, setting up the development environment, and getting started with Python programming.
+  - Introduction to pandas: python library for data manipulation and analysis.
+  - Reading and Writing Excel Files: Discusses how to manipulate excel files using python.
+  - Using xlwings: Discusses how to use xlwings to interact with excel from python.
+- I've personally read this book and i highly recommned it for anyone who is going to use python with excel
 
 ## Youtube
 - Books are courses are great for learning basic or intermidate stuff
@@ -62,20 +90,23 @@ image: /assets/images/best/python-best-libraries.webp
 - If you're structural engineer then you'll love this channel
 
 #### [Timo Harboe](https://www.youtube.com/@Timo-Harboe)
+- Creator of [Python for Structural Engineers](https://pythonforstructuralengineers.com/) Course
+- This channel mostly focus on how to use python in structural engineering projects
 
 #### [Coding is fun](https://www.youtube.com/@CodingIsFun) 
 - This is great youtube channel for learning python for medium to advance level.
 - I really love his project based approach. Each video is a project which you can build from scratch.
 - His videos more geared towards Data Analysis but there's lot of common stuff related to python programming which are useful for civil engineers
 
-
-#### Few more youtube with good python content
-- [Corey Schafer](https://www.youtube.com/@coreyms)
-- [arjancodes](https://www.youtube.com/@ArjanCodes)
-
 ####  [Fanilo Andrianasolo](https://www.youtube.com/@andfanilo)
 - This is only focused on python web development
 - Best youtube channel to learn Streamlit development
+
+#### Few more youtube with good python content
+- [arjancodes](https://www.youtube.com/@ArjanCodes)
+- [Tech with Tim](https://www.youtube.com/@TechWithTim)
+- [Corey Schafer](https://www.youtube.com/@coreyms)
+- [xlwings](https://www.youtube.com/@xlwings9689)
 
 ## Blogs
 
