@@ -1,5 +1,5 @@
 ---
-title: Best Resources to learn python for civil engineers in 2025
+title: 📖 Best Resources to learn python for civil engineers in 2025
 description: explore Books, Courses, Youtube channels
 date: 14-04-2025
 categories: [Developer Tools and Resources, Programming]
