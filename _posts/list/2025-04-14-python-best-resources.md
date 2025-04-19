@@ -140,3 +140,7 @@ image: /assets/images/best/python-best-resources.webp
 - Start with basics and slowly move to more complex topics.
 - Don't try to learn from everything at once, pick one thing stick with it.
 - Building something that you use on a daily basis is the best way to learn python.
+
+
+> If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1k2wne3/best_resources_to_learn_python_for_civil/)
+{: .prompt-info }

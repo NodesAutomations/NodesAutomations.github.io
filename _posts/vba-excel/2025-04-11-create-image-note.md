@@ -81,3 +81,6 @@ End Sub
   -  Note with images when you don't want display in printout
   -  Insert Image option when you want to display in printout
  
+
+ > If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1k2wmb2/how_to_add_notes_with_images_on_excel_using_vba/)
+{: .prompt-info }
