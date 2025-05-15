@@ -2,7 +2,7 @@
 title: How to generate STAAD model using Excel VBA
 description: Generate *.std file without openstaad API
 date: 15-05-2025
-categories: [VBA, VBA-Excel]
+categories: [VBA, VBA-STAAD]
 tag: [excel,staad, vba, script, how to]
 image: /assets/images/staad/excel-vba-staad-model.webp
 ---
