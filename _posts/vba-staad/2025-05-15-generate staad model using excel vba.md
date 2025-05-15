@@ -4,7 +4,7 @@ description: Generate *.std file without openstaad API
 date: 15-05-2025
 categories: [VBA, VBA-Excel]
 tag: [excel,staad, vba, script, how to]
-# image: /assets/images/batfiles/bat_windows.webp
+image: /assets/images/staad/excel-vba-staad-model.webp
 ---
 
 ## Overview
@@ -25,7 +25,7 @@ tag: [excel,staad, vba, script, how to]
 - Add inputs for STAAD model
 - To keep things simple, we're going to generate simple Fixed beam
 
-![Output1](/assets/images/excel/generate-staad-file-1.webp)
+![Output1](/assets/images/staad/generate-staad-file-1.webp)
 _Screenshot 1 : Excel sheet with input parameters_
 
 ## Generate STAAD file
