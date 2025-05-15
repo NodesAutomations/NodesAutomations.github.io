@@ -12,6 +12,7 @@ image: /assets/images/best/python-best-libraries.webp
 <!--#### CustomTkinter  -->
 <!--#### PyQt5   -->
 <!--#### Nuitka -->
+<!--#### pynite -->
 
 ## Overview
 - In this post I am going to explain popular libraries and frameworks used by civil engineers
