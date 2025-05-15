@@ -8,16 +8,17 @@ image: /assets/images/staad/excel-vba-staad-model.webp
 ---
 
 ## Overview
-- In this tutorial I'll show you how to generate staad file using VBA without using OpenSTAAD API
-- Generating STAAD models automatically frees you from lot of manual labor depending on model size and amount of iteration you want to go to optimize your design.
-- This method is better because
-  - It don't require OPENSTAAD API. so your code will work with all version of STAAD including really old one
-  - You can generate multiple models. this is specially important for bridge structures, where you need to generate multiple model with different load combinations or checks.
-  - Since we are doing this in excel vba, you can directly link your excel geometry or load parameters with vba code. I normally keep my model generation code with my excel design sheet so i can link all of my model parameters with my design so i don't have change inputs at multiple places.
-- Cons
-  - If you need to modify or work with existing model then it's better to use OPENSTAAD API
-- To simplify this tutorial, we will do this in multiple iteration
-- i am assuming that you have basic knowledge of `VBA` and how to create new method or functions
+- In this tutorial, I'll show you how to generate a STAAD file using VBA without using the OpenSTAAD API.
+- Generating STAAD models automatically frees you from a lot of manual labor, depending on the model size and the amount of iteration you want to do to optimize your design.
+- This method is better because:
+  - It doesn't require the OPENSTAAD API, so your code will work with all versions of STAAD, including really old ones.
+  - You can generate multiple models. This is especially important for bridge structures, where you need to generate multiple models with different load combinations or checks.
+  - Since we are doing this in Excel VBA, you can directly link your Excel geometry or load parameters with the VBA code. I normally keep my model generation code with my Excel design sheet so I can link all of my model parameters with my design and don't have to change inputs in multiple places.
+  - No need to learn the OPENSTAAD API, since we're just using the STAAD command file, which most users are already familiar with.
+- Cons:
+  - If you need to modify or work with an existing model, then it's better to use the OPENSTAAD API.
+- To simplify this tutorial, we will do this in multiple iterations.
+- I am assuming that you have a basic knowledge of `VBA` and how to create new methods or functions
 
 
 ## Setup
