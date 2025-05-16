@@ -18,13 +18,17 @@ image: /assets/images/staad/excel-vba-staad-model.webp
 - Cons:
   - If you need to modify or work with an existing model, then it's better to use the OPENSTAAD API.
 - To simplify this tutorial, we will do this in multiple iterations.
-- I am assuming that you have a basic knowledge of `VBA` and how to create new methods or functions
+- I am assuming that 
+  - you have a basic knowledge of `VBA` and how to add modules and create new sub
+  - you have good understanding of STAAD command file
+
 
 
 ## Setup
 - Create new macro enable excel file
 - Add inputs for STAAD model
 - To keep things simple, we're going to generate simple Fixed beam
+- For STAAD commands, you can refer to this [documentation](https://docs.bentley.com/LiveContent/web/STAAD.Pro%20Help-v15/en/GUID-4530159E-1D24-4BA8-99E7-451CEB9B7811.html)
 
 ![Output1](/assets/images/staad/generate-staad-file-1.webp)
 _Screenshot 1 : Excel sheet with input parameters_
@@ -259,3 +263,7 @@ End Sub
 - This is my prefered method to generate STAAD models
 - You can use Loops and Conditional statements in this code add more complex models
 - If you're bit new to VBA then take help of AI like CHATGPT to undertand or modify specific parts of code
+
+
+ > If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1knti6d/how_to_generate_staad_model_using_excel_vba_nodes/)
+{: .prompt-info }
