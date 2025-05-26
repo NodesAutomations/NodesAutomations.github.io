@@ -260,9 +260,10 @@ End Sub
 
 
 ## Conclusion
-- This is my prefered method to generate STAAD models
-- You can use Loops and Conditional statements in this code add more complex models
-- If you're bit new to VBA then take help of AI like CHATGPT to undertand or modify specific parts of code
+- This is my prefered method to generate STAAD models due to its simplicity.
+- I know lot of user just create STAAD model using excel formula's since they don't want to deal with VBA Code
+- This method is better because you can auto-generate a lot of code using AI and leverage loops and conditional statements to create more complex models.
+- If you're bit new to VBA then use AI tools like ChatGPT to understand or modify specific parts of code
 
 
  > If you have any questions or want to discuss something : [Join our comment section](https://www.reddit.com/r/NodesAutomations/comments/1knti6d/how_to_generate_staad_model_using_excel_vba_nodes/)
