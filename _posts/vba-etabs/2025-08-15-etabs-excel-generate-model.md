@@ -478,7 +478,7 @@ Sub GenerateModel()
     totalSupports = numberOfLinesX * numberOfLinesY
 
     For i = 0 To totalSupports - 1
-        etModel.PointObj.SetRestraint i * 2 - 1, restrains
+        etModel.PointObj.SetRestraint i * 2 + 1, restrains
     Next i
 
     'Assign load Patterns
