@@ -284,7 +284,6 @@ P_font = P.runs[0].font
 P_font.underline = True  # Underline text
 P_font.underline = WD_UNDERLINE.DOUBLE  # Underline style
 
-
 document.add_page_break()
 document.add_heading("Text Formatting", level=2)
 
@@ -322,7 +321,6 @@ P.add_run(" Adding 16 font size Text Here.").font.size = Pt(16)
 P = document.add_paragraph("This is paragraph with Subtle Emphasis Text.")
 P.add_run(" Adding text with subtle emphasis.").style = "Subtle Emphasis"
 
-
 # Apply Multiple Formattings
 P = document.add_paragraph()
 Line = P.add_run("This is paragraph with Bold, Italic and Underlined Text.")
@@ -357,11 +355,6 @@ quote = document.add_paragraph(
     "The greatest glory in living lies not in never falling, "
     "but in rising every time we fall.")
 quote.style = "Intense Quote"
-
-# Add Hyperlink
-document.add_heading("Hyperlink", level=3)
-P = document.add_paragraph("This is a paragraph with a ")
-
 
 # Add Page Break
 document.add_page_break()
