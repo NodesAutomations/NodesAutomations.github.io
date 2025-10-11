@@ -3,7 +3,7 @@ title: Generate Word Report using python-docx
 description: Learn how to use the python-docx package to automate Word .docx files
 date: 02-10-2025
 categories: [Python, Python-Libraries]
-tag: [python, autocad, how to, library, autocad-python]
+tag: [python, word, how to, library]
 image: /assets/images/python/python-docx.webp
 ---
 
