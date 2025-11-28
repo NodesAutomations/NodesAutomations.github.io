@@ -17,7 +17,7 @@ image: /assets/images/staad/build-staad-addin.webp
   - Better workflow, since you can't directly run your script from STAAD
   - It's older technology with limited functionality, making it more LLM friendly
 - I am assuming that:
-  - You have basic knowledge of Visual Basic script and know how to add modules and create new subs
+  - You have basic knowledge of Visual Basic script and know how to create new subs and functions
   - Keep in mind that Visual Basic script is a bit different from Excel VBA; syntax is similar, but VBA has much more functionality
 
 ## Setup
