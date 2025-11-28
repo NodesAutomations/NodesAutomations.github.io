@@ -1,5 +1,5 @@
 ---
-title: Build STAAD Addin using User Tools
+title: Build STAAD Addin using Visual basic script
 description: Use STAAD User Tools to extend STAAD functionality using Visual Basic script
 date: 27-11-2025
 categories: [VBA, VBA-STAAD]
