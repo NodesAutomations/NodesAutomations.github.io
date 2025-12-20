@@ -78,7 +78,7 @@ main_worksheet["B4"].value = area
 > Triple quote `"""` is used to escape double quotes in VBA, don't remove it. Your script won't run without those quotes
 {: .prompt-tip }
 
-```python
+```visualbasic
 Sub CalculateArea()
     Dim objShell As Object
     Set objShell = VBA.CreateObject("Wscript.Shell")
@@ -101,7 +101,7 @@ End Sub
 - In simple terms `Excel file path\Sample.py` will be our python script path
 - So, update your python script path as shown below
 
-```python
+```visualbasic
 Sub CalculateArea()
     Dim objShell As Object
     Set objShell = VBA.CreateObject("Wscript.Shell")
@@ -115,11 +115,13 @@ Sub CalculateArea()
     objShell.Run PythonExePath & " " & PythonScriptPath, 0
 End Sub
 ```
+
 ### Getting python exe path from Windows Registry
 - In case you're planning to share this script with multiple people or running on different system
 - you'll have to use inbuilt python path from Windows registry
 - Use below code snippet to get python exe path from registry
-```vba
+
+```visualbasic
 Sub CalculateArea()
 
     Dim scriptName As String
