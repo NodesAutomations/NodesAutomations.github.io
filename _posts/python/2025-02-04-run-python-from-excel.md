@@ -115,6 +115,27 @@ Sub CalculateArea()
     objShell.Run PythonExePath & " " & PythonScriptPath, 0
 End Sub
 ```
+### Getting python exe path from Windows Registry
+- In case you're planning to share this script with multiple people or running on different system
+- you'll have to use inbuilt python path from Windows registry
+- Use below code snippet to get python exe path from registry
+```vba
+Sub CalculateArea()
+
+    Dim scriptName As String
+    scriptName = "Sample.py"
+
+    Dim objShell As Object
+    Set objShell = CreateObject("WScript.Shell")
+
+    ' Set working directory to workbook folder
+    objShell.CurrentDirectory = ThisWorkbook.Path
+
+    ' Run Python script (hidden window)
+    objShell.Run "python.exe """ & scriptName & """", 0
+    
+End Sub
+```
 
 ### Conclusion
 - Now we can run our python script directly from excel file using excel VBA
