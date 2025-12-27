@@ -49,7 +49,9 @@ image: /assets/images/best/best-language.webp
   - I'm still a bit new to python, learned it around mid-2023, and since VBA and C# covers most of my use cases it's my least used language. I do plan to develop some web apps with Python in future, since Python has a lot of tools in that area.
   - Python is the most versatile language among all programming languages in this list. It's a perfect tool which is going to help you throughout your entire life.
   - Pick this as your first language if you're really serious about automation and programming. 
-  - One major reason I don't recommend python to beginners is that python has too many options in everything, too many libraries, too many open source software, too many frameworks, it's easy to get lost in all of them. This is overwhelming for beginners. 
+  - One major reason I don't recommend python to beginners is that python has too many options in everything, too many libraries, too many open source software, too many frameworks, it's easy to get lost in all of them. This is overwhelming for beginners. .
+  - If you decide to use Python then check out [Best Resources to learn python ](/posts/python-best-resources)
+  - Additionally go through all post with `python` tags on this website [python](/tags/python)
   
 #### C#
 - Difficulty Level : Hard
