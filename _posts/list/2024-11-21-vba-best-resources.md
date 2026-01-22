@@ -1,5 +1,5 @@
 ---
-title: 📖 Best Resources to learn VBA in 2025
+title: 📖 Best Resources to learn VBA for civil engineers in 2025
 description : find out which are best books, websites, YouTube channels to learn VBA in 2025
 date: 21-11-2024
 categories: [Developer Tools and Resources,Programming]
