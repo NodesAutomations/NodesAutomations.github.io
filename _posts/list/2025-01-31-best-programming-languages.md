@@ -68,7 +68,7 @@ image: /assets/images/best/best-language.webp
   - It's a great language for complex projects, C# makes it really hard to make mistakes. 
   - Don't choose this as your first language, it's not beginner friendly.
   - It's a good language for large projects or if you want to sell your software commercially.
-  - If you decide to use Python then check out [Best Resources to learn C# ](/posts/csharp-best-resources)
+  - If you decide to use C# then check out [Best Resources to learn C# ](/posts/csharp-best-resources)
 
 ### Apps specific languages 
 
