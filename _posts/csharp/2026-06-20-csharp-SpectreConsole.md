@@ -4,7 +4,7 @@ description: Learn how to build formatted interactive console applications using
 date: 20-06-2026
 categories: [CSharp, CSharp-Libraries]
 tag: [csharp, console, how to, library]
-image: /assets/images/csharp/csharp-epplus.webp
+image: /assets/images/csharp/csharp-spectreConsole.webp
 ---
 
 ## Overview
