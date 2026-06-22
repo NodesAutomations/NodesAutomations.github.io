@@ -1,6 +1,6 @@
 ---
 title: 📖 Create Custom Console Apps using Spectre.Console
-description: Learn how to build formatted interactive console applications using Spectre.Console library in C#
+description: build formatted interactive console applications
 date: 20-06-2026
 categories: [CSharp, CSharp-Libraries]
 tag: [csharp, console, how to, library]
