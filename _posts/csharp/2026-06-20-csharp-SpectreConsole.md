@@ -92,16 +92,23 @@ AnsiConsole.Write(new Markup("This is a text message with a custom style",style)
  //Title
  AnsiConsole.Write(new FigletText("Hello, World!").Centered().Color(Color.Green));
 ```
+#### Horizontal Divider
+```csharp
+//Create a horizontal divider that spans the width of the console window
+AnsiConsole.Write(new Rule());
+```
+```csharp
+//Create a horizontal divider with a custom title and color
+AnsiConsole.Write(new Rule("[green]Hello[/]").RuleStyle("grey"));
+```
 #### URL
 ```csharp
 AnsiConsole.MarkupLine("→ Website: [link=https://nodesautomations.com]Nodes Automations[/]");
 ```
-
 #### Exception
 ```csharp
 AnsiConsole.WriteException(ex,ExceptionFormats.NoStackTrace);
 ```
-
 #### Table
 - Simple Table with default settings
 
